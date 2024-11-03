@@ -1,6 +1,6 @@
 [build]
-  comman = "npm run build"
-  publish = "/build"
+  command = "npm run build"
+  publish = "dist/adhara-beauty-wellness"
   base = "/"
 
 [[redirects]]
