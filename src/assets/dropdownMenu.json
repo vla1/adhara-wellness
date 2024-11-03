@@ -1,0 +1,28 @@
+{
+  "menu": [
+    {
+      "title": "Inicio",
+      "link": "/home"
+    },
+    {"title": "Servicios",
+      "subElements": [
+        { "title": "Tratamientos faciales", "link": "/services/facial-treatments" },
+        { "title": "Estética de la mirada", "link": "/services/eye-aesthetics" },
+        { "title": "Maquillaje", "link": "/services/makeup" },
+        { "title": "Cuidado de manos", "link": "/services/hand-care" },
+        { "title": "Depilaciones", "link": "/services/hair-removal" },
+        { "title": "Spa y masajes", "link": "/services/spa-massages" },
+        { "title": "Tratamientos corporales", "link": "/services/body-treatments" },
+        { "title": "Cuidado de pies", "link": "/services/foot-care" }
+      ]
+    },
+    {
+      "title": "Contacto",
+      "link": "/contact"
+    },
+    {
+      "title": "Sobre nosotros",
+      "link":"/aboutUs"
+    }
+  ]
+}

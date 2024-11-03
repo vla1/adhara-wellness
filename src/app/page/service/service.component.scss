@@ -1,0 +1,54 @@
+@import '../../styles/constants.scss';
+
+.service-container {
+  padding: $size-md;
+  text-align: center;
+
+  h2 {
+    font-size: 2em;
+    margin-bottom: $size-md;
+    color: #333;
+  }
+
+  .jobs-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $size-md;
+    justify-content: center;
+  }
+
+  .job-item {
+    background-color: #f9f9f9;
+    border-radius: $size-sm;
+    padding: $size-md;
+    max-width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+    .image-wrapper{
+      border-radius: $size-s;
+      margin-bottom: $size-sm;
+      height:200px;
+      .job-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    h3 {
+      font-size: 1.2em;
+      margin: $size-sm 0;
+      color: #444;
+    }
+
+    p {
+      font-size: 0.95em;
+      color: #666;
+      line-height: 1.4;
+    }
+  }
+}

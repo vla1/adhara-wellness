@@ -1,0 +1,56 @@
+// Color Palette
+$primary: #5adbec;   // Soft Blue
+$secondary: #f0dbdb; // White
+$tertiary: #e6f0fa;  // Very light Blue
+$accent: #0055aa;    // Darker accent blue
+$background: #f0f4f9; // Light grayish blue for backgrounds
+$border: #ccddee;     // Soft border color
+
+// Primary Color Variations
+$primary-light: lighten($primary, 20%);
+$primary-lighter: lighten($primary, 40%);
+$primary-dark: darken($primary, 10%);
+$primary-darker: darken($primary, 20%);
+
+// Secondary Color Variations (White)
+$secondary-light: lighten($secondary, 20%);
+$secondary-lighter: lighten($secondary, 40%);
+$secondary-dark: darken($secondary, 10%);
+$secondary-darker: darken($secondary, 20%);
+
+// Tertiary Color Variations (Very light Blue)
+$tertiary-light: lighten($tertiary, 20%);
+$tertiary-lighter: lighten($tertiary, 40%);
+$tertiary-dark: darken($tertiary, 10%);
+$tertiary-darker: darken($tertiary, 20%);
+
+// Accent Color Variations (Dark Blue)
+$accent-light: lighten($accent, 20%);
+$accent-lighter: lighten($accent, 40%);
+$accent-dark: darken($accent, 10%);
+$accent-darker: darken($accent, 20%);
+
+// Background Color Variations
+$background-light: lighten($background, 20%);
+$background-lighter: lighten($background, 40%);
+$background-dark: darken($background, 10%);
+$background-darker: darken($background, 20%);
+
+$white:white;
+
+// PADDING MARGIN RADIUS
+$size-xs: 2px;
+$size-s: 4px;
+$size-sm: 8px;
+$size-md: 16px;
+$size-lg: 32px;
+$size-xl: 64px;
+
+$max-width: 1200px;
+
+// Responsive Breakpoints (based on screen sizes)
+$screen-xs: 480px;  // Extra small devices (phones)
+$screen-sm: 768px;  // Small devices (tablets)
+$screen-md: 1024px; // Medium devices (small laptops)
+$screen-lg: 1280px; // Large devices (desktops)
+$screen-xl: 1440px; // Extra large devices (large desktops)

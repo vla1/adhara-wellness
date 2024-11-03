@@ -1,0 +1,78 @@
+@import '../../../styles/constants.scss';
+
+.menu-container {
+  display: flex;
+  flex-direction: row;
+  gap: $size-sm;
+
+  .simplebtn, .dropbtn {
+    background-color: $white;
+    padding: $size-sm $size-md;
+    border-radius: $size-s;
+    border: none;
+    cursor: pointer;
+  }
+
+  .simplebtn:hover{
+    color: $primary
+
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    &:hover{
+      .dropdown-content {
+        display: block;
+      }
+      .dropbtn{
+        color: $primary;
+      }
+    }
+    .dropdown-content >a:hover{
+      color: $primary
+
+    }
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px $size-sm $size-s 0px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    >a{
+      color: black;
+      padding: $size-sm $size-md;
+      text-decoration: none;
+      display: block;
+    }
+  }
+}
+
+
+@media (max-width: $screen-xs) {
+  .menu-container {
+    flex-direction: column;
+    align-items: stretch;
+    align-items: center;
+
+    .simplebtn, .dropbtn {
+      width: 100%;
+    }
+
+    .dropdown {
+      position: unset;
+    }
+
+    .dropdown-content {
+      position: unset;
+      width:100%;
+      min-width: none;
+      >a{
+        width:100%;
+      }
+    }
+  }
+}

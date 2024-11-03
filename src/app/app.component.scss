@@ -1,0 +1,86 @@
+@import "./styles/constants.scss";
+
+/* Reset de estilos básicos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #B3E5FC; /* Primary Color - Soft Aqua Blue */
+  color: #707070; /* Medium Gray - Text Color */
+  line-height: 1.6;
+}
+
+/* Estilos para encabezados */
+h1, h2, h3, h4 {
+  color: #333333; /* Darker Gray for Headers */
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+/* Estilos para botones */
+.button {
+  background-color: #C8E6C9; /* Accent Color - Mint Green */
+  color: #333333; /* Dark Gray for Button Text */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #A1D1F0; /* Lighter Mint Green on hover */
+}
+
+/* Estilos para enlaces */
+a {
+  color: #6699cc; /* Medium Blue for Links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para secciones con fondo claro */
+.section {
+  background-color: #FFFFFF; /* Secondary Color - White */
+  border: 1px solid #CFD8DC; /* Border Color - Soft Gray */
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Estilos de pie de página */
+footer {
+  background-color: #F5F5F5; /* Tertiary Color - Light Grey */
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+  body {
+      padding: 20px;
+  }
+
+  .button {
+      width: 100%; /* Full width on small devices */
+  }
+}

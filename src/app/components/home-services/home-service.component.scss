@@ -1,0 +1,111 @@
+@import '../../styles/constants.scss';
+
+.services-container {
+  margin-top:$size-md;
+
+  >h2{
+    text-align: center;
+    color:$secondary-dark;
+  }
+
+  .service-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+      .service-card {
+      display: flex;
+      width: 45%; /* 3 cards por fila */
+      margin-bottom: 20px;
+      height:170px;
+      padding: 15px;
+      border: 1px solid #ddd;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+
+      &:hover {
+        transform: scale(1.03);
+      }
+
+      .image-container{
+        width:42%;
+        height:100%;
+        img {
+          width: 100%;
+          height:100%;
+          object-fit: cover;
+        }
+      }
+
+      .service-content {
+        padding-left: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h3 {
+          margin: 0;
+        }
+
+        button {
+          margin-top: 10px;
+          padding: 10px 15px;
+          background-color: $accent-light;
+          color: white;
+          border: none;
+          cursor: pointer;
+        }
+      }
+      /* Para las cards con imagen a la derecha */
+      &.reverse{
+        flex-direction: row-reverse;
+        .service-content {
+          padding-right:15px;
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: $screen-sm) {
+  .services-container {
+    .service-wrapper{
+      flex-direction: column;
+      align-items: center;
+
+      .service-card {
+       width: 95%; /* 2 cards por fila */
+      }
+    }
+  }
+}
+
+@media (max-width: $screen-xs) {
+  .services-container {
+    .service-wrapper{
+      .service-card {
+        width: 100%;
+        height:auto;
+        flex-direction: column;
+
+        .image-container{
+          width:100%;
+          height:100px;
+        }
+
+        .service-content {
+          padding-left: unset;
+          padding-top: 15px;
+        }
+        &.reverse{
+          flex-direction: column;
+          .service-content {
+            padding-right:unset;
+          }
+        }
+      }
+    }
+  }
+}
