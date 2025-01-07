@@ -28,11 +28,31 @@
 
     >p {
       margin: 5px 0;
+      display: flex;
+      justify-content: center;
     }
     >p >a{
       text-decoration: none;
     }
+    >p .icon{
+      width:20px;
+      height:20px;
+      padding-right:$size-s;
+    }
+
+    .social-media{
+      padding-top: $size-md;
+      display: flex;
+      flex-direction: row;
+      .icon{
+        width:30px;
+        height:30px;
+        margin-left: 10px;
+        margin-right:10px;
+      }
+    }
   }
+
   .map-container {
     width: 100%;
     height:450px;
