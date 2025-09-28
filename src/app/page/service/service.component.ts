@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import servicesData from '../../../assets/services.json';
+import { LanguageService } from 'src/app/services/language.service';
+import { Subscription } from 'rxjs';
+import { HttpClient } from '@angular/common/http';
 export interface Service {
   title: string;
   description: string;
@@ -22,19 +24,25 @@ export interface ServicesData {
 export class ServiceComponent implements OnInit{
   serviceId="";
   selectedService: any;
+  private languageSubscription: Subscription | undefined;
 
-  constructor(
+  constructor(private http: HttpClient,
     private route: ActivatedRoute,
+    private languageService:LanguageService
   ) {}
 
   ngOnInit(): void {
-    this.route.params.subscribe(params => {
-      this.serviceId = params['serviceId'];
-      this.loadServiceData();
+    this.languageSubscription = this.languageService.getLanguageObservable().subscribe((lang) => {
+      this.route.params.subscribe(params => {
+        this.serviceId = params['serviceId'];
+        this.loadServiceData(lang);
+      });
     });
   }
 
-  loadServiceData(): void {
-    this.selectedService = (servicesData.services as any)[this.serviceId] || [];
+  loadServiceData(lang:string): void {
+    this.http.get(`../../../assets/i18n/${lang}.json`).subscribe((data: any) => {
+      this.selectedService = (data.services as any)[this.serviceId] || [];
+    });
   }
 }

@@ -1,0 +1,55 @@
+{
+  "presentation":{
+    "description1":"Reservado para ti, un momento exclusivo de Relajación, Belleza y Bienestar"
+  },
+  "homeServices": [
+    {
+      "title": "Tratamientos faciales",
+      "description": "Nuestros tratamientos faciales rejuvenecerán tu piel y le darán una nueva vitalidad.",
+      "link": "/services/facial-treatments",
+      "image": "../assets/images/foto2.jpg"
+    },
+    {
+      "title": "Estética de la mirada",
+      "description": "Resalta tu mirada con nuestros servicios especializados en pestañas y cejas.",
+      "link": "/services/eye-aesthetics",
+      "image": "../assets/images/foto2.jpg"
+    },
+    {
+      "title": "Maquillaje",
+      "description": "Te ofrecemos servicios de maquillaje profesional para cualquier ocasión especial.",
+      "link": "/services/makeup",
+      "image": "../assets/images/foto3.jpg"
+    },
+    {
+      "title": "Cuidado de manos",
+      "description": "Cuida tus manos con nuestros tratamientos especializados para mantenerlas suaves y saludables.",
+      "link": "/services/hand-care",
+      "image": "../assets/images/foto4.jpg"
+    },
+    {
+      "title": "Depilaciones",
+      "description": "Ofrecemos depilación profesional para una piel suave y sin vello.",
+      "link": "/services/hair-removal",
+      "image": "../assets/images/foto3.jpg"
+    },
+    {
+      "title": "Spa y masajes",
+      "description": "Relájate y recupérate con nuestros masajes y tratamientos de spa revitalizantes.",
+      "link": "/services/spa-massages",
+      "image": "../assets/images/foto2.jpg"
+    },
+    {
+      "title": "Tratamientos corporales",
+      "description": "Disfruta de nuestros tratamientos corporales para mejorar la firmeza y suavidad de tu piel.",
+      "link": "/services/body-treatments",
+      "image": "../assets/images/foto4.jpg"
+    },
+    {
+      "title": "Cuidado de pies",
+      "description": "Brindamos un cuidado profesional de pies para mantenerlos saludables y suaves.",
+      "link": "/services/foot-care",
+      "image": "../assets/images/foto4.jpg"
+    }
+  ]
+}

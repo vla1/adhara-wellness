@@ -1,0 +1,25 @@
+{
+  "menu": [
+    {
+      "title": "Home",
+      "link": "/home"
+    },
+    {
+      "title": "Services",
+      "subElements": [
+        { "title": "Facial Treatments", "link": "/services/facial-treatments" },
+        { "title": "Eye Aesthetics", "link": "/services/eye-aesthetics" },
+        { "title": "Makeup", "link": "/services/makeup" },
+        { "title": "Hand Care", "link": "/services/hand-care" },
+        { "title": "Hair Removal", "link": "/services/hair-removal" },
+        { "title": "Spa and Massages", "link": "/services/spa-massages" },
+        { "title": "Body Treatments", "link": "/services/body-treatments" },
+        { "title": "Foot Care", "link": "/services/foot-care" }
+      ]
+    },
+    {
+      "title": "Contact",
+      "link": "/contact"
+    }
+  ]
+}

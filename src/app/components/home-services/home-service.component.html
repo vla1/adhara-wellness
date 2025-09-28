@@ -1,13 +1,13 @@
 <div class="services-container">
-  <h2>SERVICIOS</h2>
+  <h2>{{services.sectionTitle|translate}}</h2>
   <div class="service-wrapper">
-    <div *ngFor="let service of services; let i = index" class="service-card" [ngClass]="{'reverse': i % 2 !== 0}">
+    <div *ngFor="let service of services.services; let i = index" class="service-card" [ngClass]="{'reverse': i % 2 !== 0}">
       <div class="image-container">
-        <img [src]="service.image" alt="{{service.title}}" class="service-image">
+        <img [src]="service.image" alt="{{service.title |translate}}" class="service-image">
       </div>
       <div class="service-content">
-        <h3>{{service.title}}</h3>
-        <p>{{service.description}}</p>
+        <h3>{{service.title |translate}}</h3>
+        <p>{{service.description|translate}}</p>
         <button [routerLink]="service.link">Saber más</button>
       </div>
     </div>

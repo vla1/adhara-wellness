@@ -2,15 +2,19 @@
   <div *ngFor="let item of menuItems">
     <!-- Si el elemento tiene subElementos, crear un dropdown -->
     <div class="dropdown" *ngIf="item.subElements && item.subElements.length; else simpleButton">
-      <button class="dropbtn">{{ item.title }}</button>
+      <button class="dropbtn">{{ item.title |translate}}</button>
       <div class="dropdown-content">
-        <a *ngFor="let subItem of item.subElements" [routerLink]="subItem.link">{{ subItem.title }}</a>
+        <a *ngFor="let subItem of item.subElements" [routerLink]="subItem.link">{{ subItem.title |translate}}</a>
       </div>
     </div>
 
     <!-- Plantilla para botones simples -->
     <ng-template #simpleButton>
-      <button class="simplebtn" [routerLink]="item.link">{{ item.title }}</button>
+      <button class="simplebtn" [routerLink]="item.link">{{ item.title |translate}}</button>
     </ng-template>
+  </div>
+  <div class="language-switcher">
+    <button (click)="changeLanguage('es')" [disabled]="currentLanguage === 'es'">Español</button>
+    <button (click)="changeLanguage('en')" [disabled]="currentLanguage === 'en'">English</button>
   </div>
 </div>
