@@ -1,82 +1,87 @@
 @import '../../styles/constants.scss';
-
 .services-container {
-  margin-top:$size-md;
+  margin-top: $size-md;
 
-  >h2{
+  > h2 {
     text-align: center;
-    color:$secondary-dark;
+    color: $secondary-dark;
   }
 
-  .service-wrapper{
+  .service-wrapper {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
 
-      .service-card {
+    .service-card {
       display: flex;
-      width: 45%; /* 3 cards por fila */
+      align-items: center; // centra verticalmente
+      gap: 20px; // separación entre imagen y texto
+      width: 45%;
       margin-bottom: 20px;
-      height:170px;
+      min-height: 170px;
       padding: 15px;
       border: 1px solid #ddd;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
       transition: transform 0.3s;
 
       &:hover {
-        transform: scale(1.03);
+        transform: scale(1.01);
       }
 
-      .image-container{
+      .image-container {
         width:42%;
-        height:100%;
+        height:250px;
         img {
           width: 100%;
-          height:100%;
+          height: 100%;
           object-fit: cover;
+          border-radius: 6px;
         }
       }
 
       .service-content {
-        padding-left: 15px;
+        flex: 1;
         display: flex;
         flex-direction: column;
         justify-content: center;
 
         h3 {
+          margin: 0 0 0.5rem;
+        }
+
+        p {
           margin: 0;
         }
 
         button {
           margin-top: 10px;
           padding: 10px 15px;
+          width: 120px;
           background-color: $accent-light;
           color: white;
           border: none;
           cursor: pointer;
+          border-radius: 4px;
         }
       }
-      /* Para las cards con imagen a la derecha */
-      &.reverse{
+
+      &.reverse {
         flex-direction: row-reverse;
-        .service-content {
-          padding-right:15px;
-        }
       }
     }
   }
 }
 
-
+/* Responsivo */
 @media (max-width: $screen-sm) {
   .services-container {
-    .service-wrapper{
+    .service-wrapper {
       flex-direction: column;
       align-items: center;
 
       .service-card {
-       width: 95%; /* 2 cards por fila */
+        width: 95%;
       }
     }
   }
@@ -84,26 +89,26 @@
 
 @media (max-width: $screen-xs) {
   .services-container {
-    .service-wrapper{
+    .service-wrapper {
       .service-card {
         width: 100%;
-        height:auto;
         flex-direction: column;
+        align-items: flex-start;
+        gap: 15px; // separación entre imagen y texto también en móvil
+        min-height: auto;
 
-        .image-container{
-          width:100%;
-          height:100px;
+        .image-container {
+          width: 100%;
+          height: 180px;
         }
 
         .service-content {
-          padding-left: unset;
-          padding-top: 15px;
+          width: 100%;
+          padding-top: 10px;
         }
-        &.reverse{
+
+        &.reverse {
           flex-direction: column;
-          .service-content {
-            padding-right:unset;
-          }
         }
       }
     }
