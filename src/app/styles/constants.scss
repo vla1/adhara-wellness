@@ -1,10 +1,17 @@
 // Color Palette
-$primary: #5adbec;   // Soft Blue
-$secondary: #f0dbdb; // White
-$tertiary: #e6f0fa;  // Very light Blue
-$accent: #0055aa;    // Darker accent blue
-$background: #f0f4f9; // Light grayish blue for backgrounds
-$border: #ccddee;     // Soft border color
+// $primary: #5adbec;   // Soft Blue
+// $secondary: #f0dbdb; // White
+// $tertiary: #e6f0fa;  // Very light Blue
+// $accent: #0055aa;    // Darker accent blue
+// $background: #f0f4f9; // Light grayish blue for backgrounds
+// $border: #ccddee;     // Soft border color
+
+$primary: #5A94AD;
+$secondary: #F0FEFF;
+$tertiary: #C6D3D6;
+$accent: #4E9EA8;
+$background: #9AC9E1;
+$border: #A9BFC3;
 
 // Primary Color Variations
 $primary-light: lighten($primary, 20%);

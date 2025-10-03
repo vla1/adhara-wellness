@@ -4,12 +4,13 @@
   width: 100%;
   margin: 0 auto;
 
-  .home-photo-container{
-    width:100%;
-    height:50vh;
-    >img{
-      width:100%;
-      height:100%;
+  .home-photo-container {
+    width: 100%;
+    /* ✅ AÑADIR: Fija la relación de aspecto del contenedor (e.g., para una foto panorámica) */
+    aspect-ratio:13 / 5; /* O 4 / 3, o 3 / 2, según tu imagen */
+    > img {
+      width: 100%;
+      height: 100%;
       object-fit: cover;
     }
   }
