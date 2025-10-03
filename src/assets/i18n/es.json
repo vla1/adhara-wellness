@@ -80,7 +80,8 @@
           "link": "/services/foot-care",
           "image": "../assets/images/foto4.jpg"
         }
-      ]
+      ],
+      "btnKnowMode": "Saber más"
     }
   },
   "services": {
