@@ -1,12 +1,23 @@
-<div class="service-container" *ngIf="selectedService">
-  <h2>{{ selectedService.title | uppercase|translate}}</h2>
+<div class="service-container" *ngIf="selectedService" [ngClass]="{'has-service': selectedService.jobs && selectedService.jobs.length > 0}">
+
+  <h2 class="section-title">
+    {{ selectedService.title | uppercase | translate }}
+  </h2>
+
   <div class="jobs-list">
-    <div class="job-item" *ngFor="let job of selectedService.jobs">
+    <div class="job-item" *ngFor="let job of selectedService.jobs; let i = index" [ngClass]="{'reverse': i % 2 !== 0}">
+
       <div class="image-wrapper">
-        <img [src]="job.image" alt="{{ job.title |translate}}" class="job-image" />
+        <img [src]="job.image"
+            [alt]="job.title | translate"
+            class="job-image"
+            loading="lazy" />
       </div>
-      <h3>{{ job.title|translate}}</h3>
-      <p>{{ job.description |translate}}</p>
+
+      <div class="job-content">
+        <h3>{{ job.title | translate }}</h3>
+        <p>{{ job.description | translate }}</p>
+        </div>
     </div>
   </div>
 </div>

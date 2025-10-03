@@ -1,54 +1,151 @@
 @import '../../styles/constants.scss';
 
+// Variables de apoyo (Asegurando buen contraste y paleta)
+$text-color: #333;
+$secondary-text: #666;
+
 .service-container {
-  padding: $size-md;
+  // Aumento ligeramente el max-width del contenedor principal si es posible
+  // Si no está en constants, déjalo en 1200px.
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: $size-xl $size-md;
   text-align: center;
 
-  h2 {
-    font-size: 2em;
-    margin-bottom: $size-md;
-    color: #333;
+  .section-title {
+    font-size: 2.8em;
+    font-weight: 700;
+    color: $secondary-dark;
+    margin-bottom: $size-xxl;
+    position: relative;
+
+    &::after {
+      content: '';
+      display: block;
+      width: 80px;
+      height: 4px;
+      background-color: $primary;
+      margin: $size-sm auto 0;
+      border-radius: 2px;
+    }
   }
 
   .jobs-list {
     display: flex;
     flex-wrap: wrap;
-    gap: $size-md;
+    gap: $size-lg;
     justify-content: center;
   }
 
+  /* --- Estilo de Tarjeta Individual Mejorado --- */
   .job-item {
-    background-color: #f9f9f9;
+    background-color: $white;
     border-radius: $size-sm;
-    padding: $size-md;
-    max-width: 250px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
+    padding: $size-sm;
+
+    // CAMBIO CLAVE: Aumento el ancho fijo para ocupar más espacio
+    // Esto generalmente resultará en 3-4 tarjetas por fila en escritorio grande
+    width: 380px;
+
+    border: 1px solid lighten($border, 10%);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    text-align: center;
 
     &:hover {
       transform: translateY(-5px);
+      border-color: $primary;
+      box-shadow: 0 8px 20px rgba(darken($primary, 10%), 0.1);
     }
-    .image-wrapper{
-      border-radius: $size-s;
+
+    /* --- Imagen --- */
+    .image-wrapper {
+      border-radius: $size-xs;
       margin-bottom: $size-sm;
-      height:200px;
+      // Aumento la altura de la imagen para que se vea más impactante
+      height: 200px;
+      overflow: hidden;
+
       .job-image {
         width: 100%;
         height: 100%;
         object-fit: cover;
+        transition: transform 0.5s ease;
+
+        &:hover {
+          transform: scale(1.08);
+        }
       }
     }
 
-    h3 {
-      font-size: 1.2em;
-      margin: $size-sm 0;
-      color: #444;
-    }
+    /* --- Contenido de Texto Mejorado --- */
+    .job-content {
+        padding: 0 $size-xs $size-xs;
 
-    p {
-      font-size: 0.95em;
-      color: #666;
-      line-height: 1.4;
+        h3 {
+            font-size: 1.5em; /* Ligeramente más grande */
+            // Usamos $secondary-dark en lugar de $accent-light (asumo que $accent-light era $secondary-dark en la intención anterior)
+            color: $tertiary-dark;
+            margin: $size-sm 0 $size-xs;
+            font-weight: 700;
+
+            &::after {
+                content: '';
+                display: block;
+                width: 30%;
+                height: 2px;
+                background-color: $primary-lighter;
+                margin: $size-xs auto 0;
+                border-radius: 1px;
+            }
+        }
+
+        p {
+            font-size: 1em;
+            color: $secondary-text;
+            line-height: 1.5;
+            min-height: 4.5em; /* Aumento la altura mínima para mejor legibilidad */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 $size-xs; /* Añadimos un pequeño padding horizontal al texto */
+        }
     }
   }
+}
+
+
+/* --- Media Queries Ajustados --- */
+@media (max-width: $screen-lg) {
+    /* Ajuste para 3 tarjetas por fila en la mayoría de tablets grandes y laptops */
+    .jobs-list {
+        gap: $size-md;
+    }
+    .job-item {
+        // Cálculo para 3 columnas: (100% - 2*gap) / 3
+        width: calc(33.333% - #{$size-md * 2 / 3});
+        max-width: 100%;
+    }
+}
+
+@media (max-width: $screen-md) {
+    /* 2 tarjetas por fila en tablets */
+    .jobs-list {
+        gap: $size-s;
+    }
+    .job-item {
+        // Cálculo para 2 columnas: (100% - 1*gap) / 2
+        width: calc(50% - #{$size-s / 2});
+    }
+}
+
+@media (max-width: $screen-sm) {
+    /* 1 tarjeta por fila en móviles */
+    .jobs-list {
+        gap: $size-s;
+    }
+    .job-item {
+        width: 100%;
+    }
 }

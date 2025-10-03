@@ -3,41 +3,47 @@
 
     <div class="footer-column contact-info">
       <h4 class="column-title">
-        Contáctanos
+        {{'footer.contactTitle' | translate}}
       </h4>
       <p>
         <a href="https://www.google.com/maps?q=Calle+Villalonga+33+Palma" target="_blank" rel="noopener noreferrer">
-          <i class="fas fa-location-arrow"></i> Calle Villalonga, 33
+          <i class="fa-solid fa-location-dot"></i> {{'contact.location' | translate}}
         </a>
       </p>
-      <p><i class="fas fa-phone"></i> 971 732 146</p>
+      <p><i class="fa-solid fa-phone"></i> {{'contact.phone' | translate}}</p>
       <p>
         <a href="https://wa.me/623043248" target="_blank">
-          <i class="fab fa-whatsapp"></i> 623 04 32 48
+          <i class="fa-brands fa-whatsapp"></i> {{'contact.whatsapp' | translate}}
         </a>
       </p>
       <p>
         <a href="mailto:adhara@adharabeautywellness.com">
-          <i class="fas fa-envelope"></i> adhara@adharabeautywellness.com
+          <i class="fa-solid fa-envelope"></i> {{'contact.email' | translate}}
         </a>
       </p>
     </div>
 
     <div class="footer-column quick-links">
-      <h4 class="column-title">Enlaces Rápidos</h4>
+      <h4 class="column-title">{{'footer.linksTitle' | translate}}</h4>
       <ul>
-        <li><a [routerLink]="['/home']">Inicio</a></li>
-        <li><a [routerLink]="['/services/spa-massages']">Spa y Masajes</a></li>
-        <li><a [routerLink]="['/services/facial-treatments']">Tratamientos Faciales</a></li>
-        <li><a [routerLink]="['/contact']">Pedir Cita</a></li>
+        <li><a [routerLink]="['/home']">{{'navbarMenu.0.title' | translate}}</a></li>
+        <li><a [routerLink]="['/services/spa-massages']">{{'services.spa-massages.title' | translate}}</a></li>
+        <li><a [routerLink]="['/services/facial-treatments']">{{'services.facial-treatments.title' | translate}}</a></li>
+        <li><a [routerLink]="['/contact']">{{'navbarMenu.2.title' | translate}}</a></li>
       </ul>
     </div>
 
     <div class="footer-column schedule-social">
-      <h4 class="column-title">Horario</h4>
-      <p>Lunes a Viernes: 10:00 - 19:00</p>
-      <p>Sábados: 10:00 - 14:00</p>
-      <p class="copyright">© {{ 'now' | date: 'yyyy' }} Adhara Beauty & Wellness. Todos los derechos reservados.</p>
+      <h4 class="column-title">{{'footer.contactScheduleTitle' | translate}}</h4>
+
+      <p>{{'contact.weekdays' | translate}}</p>
+      <p>{{'contact.saturday' | translate}}</p>
+      <p>{{'contact.sunday' | translate}}</p>
+
+      <p class="copyright">
+        © {{ 'now' | date: 'yyyy' }} Adhara Beauty & Wellness. {{'footer.copyright' | translate}}
+      </p>
+
       <div class="social-icons">
         <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
         <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>

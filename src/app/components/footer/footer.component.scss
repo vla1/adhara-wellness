@@ -58,6 +58,8 @@ p {
     color: $link-color;
     text-decoration: none;
     transition: color 0.3s ease;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
 
     &:hover {
       color: $hover-color;

@@ -1,74 +1,171 @@
 @import '../../styles/constants.scss';
 
+// --- Definición de Variables de Texto (Mantener si no están en _constants.scss) ---
+// Estas variables son cruciales para el funcionamiento del componente
+$text-color: #333333; // Texto general oscuro
+$link-color: #707070; // Gris medio para enlaces sociales (no los principales)
+$hover-color: $primary; // Usamos el color primario como color de hover
+// ---------------------------------------------------------------------------------
+
+
 .contact-container {
-  padding: 20px;
-  background-image: url("../../../assets/images/foto1.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  padding: $size-xl $size-md;
+  background-color: $white;
+  max-width: 1400px;
+  margin: 0 auto;
 
-  >h2{
+  /* Estilo del título principal (h2) */
+  > h2 {
+    text-align: center;
     font-size: 2.75em;
-    color:$secondary-dark;
+    color: $secondary-dark;
+    margin-bottom: $size-xl;
+
+    >i{
+      color:$primary;
+    }
   }
-  .contact-info {
-    padding: $size-md;
-    background-color: #f9f9f9;
-    border-radius: $size-sm;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
-    margin: $size-lg auto;
 
+  /* Contenedor principal para el layout de dos columnas */
+  .main-content-wrapper {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-    font-size: 16px;
-    color: #333;
+    gap: $size-lg;
+    align-items: flex-start; /* Alinea los elementos en la parte superior */
+  }
 
-    >p {
-      margin: 5px 0;
-      display: flex;
-      justify-content: center;
-    }
-    >p >a{
-      text-decoration: none;
-    }
-    >p .icon{
-      width:20px;
-      height:20px;
-      padding-right:$size-s;
+  /* --- Contenedor de Información de Contacto (Columna 1) --- */
+  .contact-info {
+    flex: 1; /* Ocupa 50% del espacio */
+    padding: $size-xl;
+    background-color: lighten($tertiary, 20%); /* Fondo claro de tu paleta */
+    border-radius: $size-md;
+    /* Sombra basada en tu color primario */
+    box-shadow: 0 4px 20px rgba(darken($primary, 30%), 0.15);
+
+    h3 { /* Títulos internos (Detalles, Horario, Síguenos) */
+      color: $primary;
+      border-bottom: 2px solid $primary-lighter;
+      padding-bottom: $size-xs;
+      margin-bottom: $size-lg;
+      margin-top: $size-xl; /* Espacio superior para separar secciones */
+
+      /* Asegura que el primer h3 (Detalles) no tenga margen superior excesivo */
+      &:first-of-type {
+          margin-top: 0;
+      }
     }
 
-    .social-media{
-      padding-top: $size-md;
+    /* Estructura para cada línea de detalle (ícono + texto) */
+    .detail-item {
       display: flex;
-      flex-direction: row;
-      .icon{
-        width:30px;
-        height:30px;
-        margin-left: 10px;
-        margin-right:10px;
+      align-items: flex-start;
+      margin-bottom: $size-md;
+
+      /* Estilos para el ícono de Font Awesome */
+      .icon-marker {
+        font-size: 1.8em;
+        color: $primary;
+        width: 35px;
+        min-width: 35px;
+        text-align: center;
+        margin-right: $size-md;
+      }
+
+      .text-content {
+
+        p, a {
+          margin: 0;
+          font-size: 1.1em;
+          transition: color 0.3s ease, text-decoration 0.3s ease;
+        }
+
+        /* Estilo CLAVE para elementos <a> para que se vean clicables */
+        a {
+          color: $primary;
+          text-decoration: underline;
+          text-underline-offset: 0.2em;
+        }
+
+        a:hover {
+          color: $primary-dark;
+        }
+
+        /* Estilo para elementos <p> (texto plano, como el horario o la ciudad) */
+        p {
+          color: $text-color;
+          text-decoration: none;
+        }
+      }
+    }
+
+    /* --- Redes Sociales --- */
+    .social-media {
+      padding-top: $size-lg;
+      border-top: 1px solid $border;
+      margin-top: $size-xl;
+
+      h3 {
+          color: $secondary-dark;
+          border-bottom: none; /* Quitamos la línea de borde del h3 de Redes Sociales */
+      }
+
+      /* Estilo para los íconos sociales (etiquetas <a> que contienen <i>) */
+      a {
+          color: $link-color;
+          font-size: 2.2em;
+          margin-right: $size-sm;
+          transition: color 0.3s ease;
+
+          &:hover {
+              color: $primary;
+          }
       }
     }
   }
 
+  /* --- Contenedor del Mapa (Columna 2) --- */
   .map-container {
-    width: 100%;
-    height:450px;
-    margin: 0 auto;
-    border: 1px solid #ddd;
+    flex: 1; /* Ocupa 50% del espacio */
+    height: 550px;
+    border-radius: $size-md;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(darken($primary, 30%), 0.15);
+  }
+}
+
+/* --- Media Queries (Responsividad) --- */
+
+@media (max-width: $screen-md) {
+  .contact-container {
+    padding: $size-lg $size-md; /* Reducir padding en tablets */
+
+    .main-content-wrapper {
+      flex-direction: column; /* Apilar las columnas */
+    }
+
+    .contact-info {
+        padding: $size-lg;
+    }
+
+    .map-container {
+      flex: none;
+      width: 100%;
+      height: 400px; /* Altura reducida */
+      order: -1; /* Mueve el mapa arriba de la información en vista móvil */
+    }
   }
 }
 
 @media (max-width: $screen-sm) {
   .contact-container {
+    padding: $size-lg $size-s; /* Reducir aún más el padding lateral en móviles */
 
-    .contact-info {
-      font-size: 14px;
+    > h2 {
+        font-size: 2em; /* Título más pequeño */
     }
-    .map-container{
-      height:300px;
+
+    .map-container {
+      height: 300px; /* Altura mínima en móviles */
     }
   }
 }

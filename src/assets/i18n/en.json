@@ -7,38 +7,14 @@
     {
       "title": "Services",
       "subElements": [
-        {
-          "title": "Facial Treatments",
-          "link": "/services/facial-treatments"
-        },
-        {
-          "title": "Eye Aesthetics",
-          "link": "/services/eye-aesthetics"
-        },
-        {
-          "title": "Makeup",
-          "link": "/services/makeup"
-        },
-        {
-          "title": "Hand Care",
-          "link": "/services/hand-care"
-        },
-        {
-          "title": "Hair Removal",
-          "link": "/services/hair-removal"
-        },
-        {
-          "title": "Spa and Massages",
-          "link": "/services/spa-massages"
-        },
-        {
-          "title": "Body Treatments",
-          "link": "/services/body-treatments"
-        },
-        {
-          "title": "Foot Care",
-          "link": "/services/foot-care"
-        }
+        { "title": "Facial Treatments", "link": "/services/facial-treatments" },
+        { "title": "Eye Aesthetics", "link": "/services/eye-aesthetics" },
+        { "title": "Makeup", "link": "/services/makeup" },
+        { "title": "Hand Care", "link": "/services/hand-care" },
+        { "title": "Hair Removal", "link": "/services/hair-removal" },
+        { "title": "Spa & Massages", "link": "/services/spa-massages" },
+        { "title": "Body Treatments", "link": "/services/body-treatments" },
+        { "title": "Foot Care", "link": "/services/foot-care" }
       ]
     },
     {
@@ -49,8 +25,8 @@
   "home": {
     "presentation": {
       "adharaText": "Reserved for you, an exclusive moment of Relaxation, Beauty, and Wellness",
-      "description": "At Aldhara Beauty & Wellness, we are dedicated to offering you the best aesthetic and wellness treatments. Our team of professionals is committed to your care and relaxation, utilizing innovative techniques and high-quality products to guarantee your satisfaction.",
-      "description2": "We believe in the beauty that comes from within and we strive to provide a relaxing environment where you can enjoy every moment. Our goal is to help you feel good about yourself, both inside and out.",
+      "description": "At Aldhara Beauty & Wellness, we are dedicated to offering you the best aesthetic and wellness treatments. Our team of professionals is committed to your care and relaxation, using innovative techniques and high-quality products to guarantee your satisfaction.",
+      "description2": "We believe in the beauty that comes from within and strive to provide a relaxing environment where you can enjoy every moment. Our goal is to help you feel good about yourself, both inside and out.",
       "description3": "We invite you to visit us and discover the Aldhara experience!"
     },
     "homeServices": {
@@ -64,7 +40,7 @@
         },
         {
           "title": "Eye Aesthetics",
-          "description": "Highlight your look with our specialized eyelash and eyebrow services.",
+          "description": "Enhance your look with our specialized eyelash and eyebrow services.",
           "link": "/services/eye-aesthetics",
           "image": "../assets/images/foto2.jpg"
         },
@@ -76,7 +52,7 @@
         },
         {
           "title": "Hand Care",
-          "description": "Care for your hands with our specialized treatments to keep them soft and healthy.",
+          "description": "Take care of your hands with our specialized treatments to keep them soft and healthy.",
           "link": "/services/hand-care",
           "image": "../assets/images/foto4.jpg"
         },
@@ -87,7 +63,7 @@
           "image": "../assets/images/foto3.jpg"
         },
         {
-          "title": "Spa and Massages",
+          "title": "Spa & Massages",
           "description": "Relax and recover with our revitalizing massages and spa treatments.",
           "link": "/services/spa-massages",
           "image": "../assets/images/foto2.jpg"
@@ -111,227 +87,104 @@
     "facial-treatments": {
       "title": "Facial Treatments",
       "jobs": [
-        {
-          "title": "Facial Cleansing",
-          "description": "A deep cleansing treatment that purifies and revitalizes the skin.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Vitamin Treatment",
-          "description": "Nourish and revitalize your skin with a concentrated vitamin boost.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Spot Treatment",
-          "description": "Reduce and lighten skin spots for an even tone.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Acne Treatment",
-          "description": "Control and prevent acne for cleaner, healthier skin.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Eye Contour Treatment",
-          "description": "Hydrate and improve the appearance of the eye contour.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Neck and Décolleté Treatment",
-          "description": "Rejuvenate and firm the skin of the neck and décolleté.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Facial Diathermy",
-          "description": "Stimulates collagen for a rejuvenated skin appearance.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Radiofrequency",
-          "description": "Improves skin elasticity and firmness through radiofrequency waves.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Mesotherapy",
-          "description": "Hydrate and revitalize the skin with micro-injections of nutrients.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Dermapen",
-          "description": "Stimulates collagen production with microneedling technology.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Vacuum Therapy (Vacumterapia)",
-          "description": "Improves circulation and firms the skin with vacuum therapy.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "HIFU",
-          "description": "Firms and tightens the skin with high-intensity focused ultrasound.",
-          "image": "../assets/images/foto2.jpg"
-        }
+        { "title": "Facial Hygiene", "description": "A deep cleansing treatment that purifies and revitalizes the skin.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Vitamin Treatment", "description": "Nourish and revitalize your skin with a concentrated vitamin boost.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Blemish Treatment", "description": "Reduces and brightens skin blemishes for an even tone.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Acne Treatment", "description": "Controls and prevents acne for cleaner, healthier skin.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Eye Contour Treatment", "description": "Hydrates and improves the appearance of the eye contour.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Neck and Decolletage Treatment", "description": "Rejuvenates and firms the skin of the neck and décolletage.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Facial Diathermy", "description": "Stimulates collagen for a rejuvenated skin appearance.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Radiofrequency", "description": "Improves skin elasticity and firmness through radiofrequency waves.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Mesotherapy", "description": "Hydrates and revitalizes the skin with nutrient microinjections.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Dermapen", "description": "Stimulates collagen production with micro-needling technology.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Vacuum Therapy", "description": "Improves circulation and firms the skin with vacuum therapy.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Hifu", "description": "Firms and tightens the skin with high-intensity focused ultrasound.", "image": "../assets/images/foto2.jpg" }
       ]
     },
     "eye-aesthetics": {
       "title": "Eye Aesthetics",
       "jobs": [
-        {
-          "title": "Eyebrow and Eyelash Tinting",
-          "description": "Enhance the natural color of your eyebrows and eyelashes.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Eyelash Lift",
-          "description": "Lifts and curls the lashes for a more expressive look.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Eyelash Extensions",
-          "description": "Lengthen and volumize your lashes for a dramatic effect.",
-          "image": "../assets/images/foto2.jpg"
-        }
+        { "title": "Eyebrow and Eyelash Tinting", "description": "Enhance the natural color of your eyebrows and eyelashes.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Eyelash Lifting", "description": "Lifts and curls lashes for a more expressive look.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Eyelash Extensions", "description": "Lengthens and adds volume to your lashes for a dramatic effect.", "image": "../assets/images/foto2.jpg" }
       ]
     },
     "makeup": {
       "title": "Makeup",
       "jobs": [
-        {
-          "title": "Makeup for Events and Weddings",
-          "description": "Professional makeup adapted to every event to highlight your beauty.",
-          "image": "../assets/images/foto3.jpg"
-        }
+        { "title": "Event and Wedding Makeup", "description": "Professional makeup adapted to every event to enhance your beauty.", "image": "../assets/images/foto3.jpg" }
       ]
     },
     "hand-care": {
       "title": "Hand Care",
       "jobs": [
-        {
-          "title": "Manicure",
-          "description": "Embellish and care for your hands and nails with a professional manicure.",
-          "image": "../assets/images/foto4.jpg"
-        },
-        {
-          "title": "Permanent Polish (Gel Polish)",
-          "description": "Perfect nails for longer with our permanent nail polish application.",
-          "image": "../assets/images/foto4.jpg"
-        }
+        { "title": "Manicure", "description": "Beautify and care for your hands and nails with a professional manicure.", "image": "../assets/images/foto4.jpg" },
+        { "title": "Permanent Polish", "description": "Perfect nails for longer with our permanent polish.", "image": "../assets/images/foto4.jpg" }
       ]
     },
     "hair-removal": {
       "title": "Hair Removal",
       "jobs": [
-        {
-          "title": "Cold and Hot Waxing",
-          "description": "Quickly and durably remove hair with cold or hot wax.",
-          "image": "../assets/images/foto3.jpg"
-        },
-        {
-          "title": "Electric Epilation",
-          "description": "Permanent hair removal using electric current.",
-          "image": "../assets/images/foto3.jpg"
-        },
-        {
-          "title": "Diode Laser Hair Removal",
-          "description": "Long-term results with diode laser hair removal.",
-          "image": "../assets/images/foto3.jpg"
-        }
+        { "title": "Cold and Hot Waxing", "description": "Quickly and permanently remove hair with cold or hot wax.", "image": "../assets/images/foto3.jpg" },
+        { "title": "Electric Hair Removal", "description": "Definitive hair removal using electric current.", "image": "../assets/images/foto3.jpg" },
+        { "title": "Diode Laser Hair Removal", "description": "Long-term results with diode laser hair removal.", "image": "../assets/images/foto3.jpg" }
       ]
     },
     "spa-massages": {
-      "title": "Spa and Massages",
+      "title": "Spa & Massages",
       "jobs": [
-        {
-          "title": "Relaxing Massage",
-          "description": "Relax and release tension with a soothing massage.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Sports Massage",
-          "description": "Relieve fatigue and muscle tension after exercise.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Lymphatic Drainage Massage",
-          "description": "Eliminate toxins and reduce fluid retention.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Adhara Massage",
-          "description": "Exclusive massage to relax and revitalize the body.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Body Exfoliation",
-          "description": "Removes dead cells and rejuvenates the skin of the body.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Anti-Aging Exfoliation",
-          "description": "Improves skin texture and reduces signs of aging.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Restorative Diathermy",
-          "description": "Therapeutic massage for post-operative recovery and scars. (massage, post-operative, post-surgery, scars)",
-          "image": "../assets/images/foto2.jpg"
-        }
+        { "title": "Relaxing Massage", "description": "Relax and release tension with a soothing massage.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Sports Massage", "description": "Relieve fatigue and muscle tension after exercise.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Lymphatic Drainage Massage", "description": "Eliminates toxins and reduces fluid retention.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Adhara Massage", "description": "Exclusive massage to relax and revitalize the body.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Body Exfoliation", "description": "Removes dead cells and rejuvenates the body's skin.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Anti-Aging Exfoliation", "description": "Improves skin texture and reduces signs of aging.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Recovery Diathermy", "description": "Therapeutic massage for post-operative recovery and scars. (massage, post-op, post-surgery, scars)", "image": "../assets/images/foto2.jpg" }
       ]
     },
     "body-treatments": {
       "title": "Body Treatments",
       "jobs": [
-        {
-          "title": "Diathermy",
-          "description": "Heat treatment to improve firmness and reduce localized fat.",
-          "image": "../assets/images/foto4.jpg"
-        },
-        {
-          "title": "Radiofrequency",
-          "description": "Increases collagen production for firmer skin.",
-          "image": "../assets/images/foto4.jpg"
-        },
-        {
-          "title": "Vacuum Therapy (Vacumterapia)",
-          "description": "Improves circulation and skin firmness with vacuum therapy.",
-          "image": "../assets/images/foto4.jpg"
-        },
-        {
-          "title": "Electro-stimulation",
-          "description": "Strengthens muscles and improves tone with electro-stimulation.",
-          "image": "../assets/images/foto4.jpg"
-        },
-        {
-          "title": "Body Mesotherapy",
-          "description": "Rejuvenates and tones the skin with vitamins and hydration.",
-          "image": "../assets/images/foto4.jpg"
-        },
-        {
-          "title": "Pressotherapy",
-          "description": "Stimulates the lymphatic system and improves circulation.",
-          "image": "../assets/images/foto4.jpg"
-        },
-        {
-          "title": "HIFU",
-          "description": "Tightens and firms the skin with high-frequency ultrasound.",
-          "image": "../assets/images/foto4.jpg"
-        }
+        { "title": "Diathermy", "description": "Heat treatment to improve firmness and reduce localized fat.", "image": "../assets/images/foto4.jpg" },
+        { "title": "Radiofrequency", "description": "Increases collagen production for firmer skin.", "image": "../assets/images/foto4.jpg" },
+        { "title": "Vacuum Therapy", "description": "Improves circulation and skin firmness with vacuum therapy.", "image": "../assets/images/foto4.jpg" },
+        { "title": "Electro-stimulation", "description": "Strengthens muscles and improves tone with electro-stimulation.", "image": "../assets/images/foto4.jpg" },
+        { "title": "Body Mesotherapy", "description": "Rejuvenates and tones the skin with vitamins and hydration.", "image": "../assets/images/foto4.jpg" },
+        { "title": "Pressotherapy", "description": "Stimulates the lymphatic system and improves circulation.", "image": "../assets/images/foto4.jpg" },
+        { "title": "Hifu", "description": "Tightens and firms the skin with high-frequency ultrasound.", "image": "../assets/images/foto4.jpg" }
       ]
     },
     "foot-care": {
       "title": "Foot Care",
       "jobs": [
-        {
-          "title": "Pedicure",
-          "description": "Embellish and care for your feet and nails with a professional pedicure.",
-          "image": "../assets/images/foto4.jpg"
-        },
-        {
-          "title": "Permanent Polish (Gel Polish)",
-          "description": "Keep your toenails perfect for longer.",
-          "image": "../assets/images/foto4.jpg"
-        }
+        { "title": "Pedicure", "description": "Beautify and care for your feet and nails with a professional pedicure.", "image": "../assets/images/foto4.jpg" },
+        { "title": "Permanent Polish", "description": "Keep your toenails perfect for longer.", "image": "../assets/images/foto4.jpg" }
       ]
     }
+  },
+  "footer": {
+    "title": "Adhara Beauty & Wellness",
+    "linksTitle": "Quick Links",
+    "contactTitle": "Contact",
+    "contactScheduleTitle": "Contact & Schedule",
+    "copyright": "All rights reserved",
+    "schedule": [
+      { "day": "Monday - Friday", "hours": "10:00 AM–2:00 PM | 3:00 PM–7:00 PM" },
+      { "day": "Saturdays and Sundays", "hours": "Closed" }
+    ]
+  },
+  "contact": {
+    "title": "Get in Touch with Adhara",
+    "detailsTitle": "Details & Appointments",
+    "scheduleTitle": "Opening Hours",
+    "socialTitle": "Follow Us",
+    "location": "33 Villalonga Street",
+    "city": "Palma de Mallorca, Spain",
+    "phone": "912 345 678",
+    "whatsapp": "623 04 32 48",
+    "email": "adhara@adharabeautywellness.com",
+    "weekdays": "Monday to Friday: 10:00 AM–2:00 PM and 3:00 PM–7:00 PM",
+    "saturday": "Saturdays: Closed",
+    "sunday": "Sundays: Closed"
   }
 }

@@ -4,7 +4,8 @@
       "title": "Inicio",
       "link": "/home"
     },
-    {"title": "Servicios",
+    {
+      "title": "Servicios",
       "subElements": [
         { "title": "Tratamientos faciales", "link": "/services/facial-treatments" },
         { "title": "Estética de la mirada", "link": "/services/eye-aesthetics" },
@@ -21,291 +22,169 @@
       "link": "/contact"
     }
   ],
-  "home":{
-    "presentation":{
-        "adharaText":"Reservado para ti, un momento exclusivo de Relajación, Belleza y Bienestar",
-        "description":"En Aldhara Beauty & Wellness, nos dedicamos a ofrecerte los mejores tratamientos estéticos y de bienestar. Nuestro equipo de profesionales está comprometido con tu cuidado y relajación, utilizando técnicas innovadoras y productos de alta calidad para garantizar tu satisfacción.",
-        "description2":"Creemos en la belleza que viene de adentro y nos esforzamos por proporcionar un ambiente relajante donde puedas disfrutar de cada momento. Nuestro objetivo es ayudarte a sentirte bien contigo mismo, tanto por dentro como por fuera.",
-        "description3":"¡Te invitamos a visitarnos y descubrir la experiencia Aldhara!"
-      },
+  "home": {
+    "presentation": {
+      "adharaText": "Reservado para ti, un momento exclusivo de Relajación, Belleza y Bienestar",
+      "description": "En Aldhara Beauty & Wellness, nos dedicamos a ofrecerte los mejores tratamientos estéticos y de bienestar. Nuestro equipo de profesionales está comprometido con tu cuidado y relajación, utilizando técnicas innovadoras y productos de alta calidad para garantizar tu satisfacción.",
+      "description2": "Creemos en la belleza que viene de adentro y nos esforzamos por proporcionar un ambiente relajante donde puedas disfrutar de cada momento. Nuestro objetivo es ayudarte a sentirte bien contigo mismo, tanto por dentro como por fuera.",
+      "description3": "¡Te invitamos a visitarnos y descubrir la experiencia Aldhara!"
+    },
     "homeServices": {
-      "sectionTitle":"SERVICIOS",
-      "services":[
-      {
-        "title": "Tratamientos faciales",
-        "description": "Nuestros tratamientos faciales rejuvenecerán tu piel y le darán una nueva vitalidad.",
-        "link": "/services/facial-treatments",
-        "image": "../assets/images/foto2.jpg"
-      },
-      {
-        "title": "Estética de la mirada",
-        "description": "Resalta tu mirada con nuestros servicios especializados en pestañas y cejas.",
-        "link": "/services/eye-aesthetics",
-        "image": "../assets/images/foto2.jpg"
-      },
-      {
-        "title": "Maquillaje",
-        "description": "Te ofrecemos servicios de maquillaje profesional para cualquier ocasión especial.",
-        "link": "/services/makeup",
-        "image": "../assets/images/foto3.jpg"
-      },
-      {
-        "title": "Cuidado de manos",
-        "description": "Cuida tus manos con nuestros tratamientos especializados para mantenerlas suaves y saludables.",
-        "link": "/services/hand-care",
-        "image": "../assets/images/foto4.jpg"
-      },
-      {
-        "title": "Depilaciones",
-        "description": "Ofrecemos depilación profesional para una  piel suave y sin vello.",
-        "link": "/services/hair-removal",
-        "image": "../assets/images/foto3.jpg"
-      },
-      {
-        "title": "Spa y masajes",
-        "description": "Relájate y recupérate con nuestros masajes y tratamientos de spa revitalizantes.",
-        "link": "/services/spa-massages",
-        "image": "../assets/images/foto2.jpg"
-      },
-      {
-        "title": "Tratamientos corporales",
-        "description": "Disfruta de nuestros tratamientos corporales para mejorar la firmeza y suavidad de tu piel.",
-        "link": "/services/body-treatments",
-        "image": "../assets/images/foto4.jpg"
-      },
-      {
-        "title": "Cuidado de pies",
-        "description": "Brindamos un cuidado profesional de pies para mantenerlos saludables y suaves.",
-        "link": "/services/foot-care",
-        "image": "../assets/images/foto4.jpg"
-      }
-    ]}
+      "sectionTitle": "SERVICIOS",
+      "services": [
+        {
+          "title": "Tratamientos faciales",
+          "description": "Nuestros tratamientos faciales rejuvenecerán tu piel y le darán una nueva vitalidad.",
+          "link": "/services/facial-treatments",
+          "image": "../assets/images/foto2.jpg"
+        },
+        {
+          "title": "Estética de la mirada",
+          "description": "Resalta tu mirada con nuestros servicios especializados en pestañas y cejas.",
+          "link": "/services/eye-aesthetics",
+          "image": "../assets/images/foto2.jpg"
+        },
+        {
+          "title": "Maquillaje",
+          "description": "Te ofrecemos servicios de maquillaje profesional para cualquier ocasión especial.",
+          "link": "/services/makeup",
+          "image": "../assets/images/foto3.jpg"
+        },
+        {
+          "title": "Cuidado de manos",
+          "description": "Cuida tus manos con nuestros tratamientos especializados para mantenerlas suaves y saludables.",
+          "link": "/services/hand-care",
+          "image": "../assets/images/foto4.jpg"
+        },
+        {
+          "title": "Depilaciones",
+          "description": "Ofrecemos depilación profesional para una piel suave y sin vello.",
+          "link": "/services/hair-removal",
+          "image": "../assets/images/foto3.jpg"
+        },
+        {
+          "title": "Spa y masajes",
+          "description": "Relájate y recupérate con nuestros masajes y tratamientos de spa revitalizantes.",
+          "link": "/services/spa-massages",
+          "image": "../assets/images/foto2.jpg"
+        },
+        {
+          "title": "Tratamientos corporales",
+          "description": "Disfruta de nuestros tratamientos corporales para mejorar la firmeza y suavidad de tu piel.",
+          "link": "/services/body-treatments",
+          "image": "../assets/images/foto4.jpg"
+        },
+        {
+          "title": "Cuidado de pies",
+          "description": "Brindamos un cuidado profesional de pies para mantenerlos saludables y suaves.",
+          "link": "/services/foot-care",
+          "image": "../assets/images/foto4.jpg"
+        }
+      ]
+    }
   },
   "services": {
     "facial-treatments": {
       "title": "Tratamientos faciales",
       "jobs": [
-        {
-          "title": "Higiene facial",
-          "description": "Un tratamiento de limpieza profunda que purifica y revitaliza la piel.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Tratamiento de vitaminas",
-          "description": "Nutre y revitaliza tu piel con un aporte concentrado de vitaminas.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Tratamiento para manchas",
-          "description": "Reduce y aclara las manchas de la piel para un tono uniforme.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Tratamiento para acné",
-          "description": "Controla y previene el acné para una piel más limpia y saludable.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Tratamiento para contorno de ojos",
-          "description": "Hidrata y mejora la apariencia del contorno de ojos.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Tratamiento para cuello y escote",
-          "description": "Rejuvenece y reafirma la piel del cuello y escote.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Diatermia facial",
-          "description": "Estimula el colágeno para un aspecto rejuvenecido de la piel.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Radiofrecuencia",
-          "description": "Mejora la elasticidad y firmeza de la piel a través de ondas de radiofrecuencia.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Mesoterapia",
-          "description": "Hidrata y revitaliza la piel con microinyecciones de nutrientes.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Dermapen",
-          "description": "Estimula la producción de colágeno con tecnología de micropunción.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Vacumterapia",
-          "description": "Mejora la circulación y reafirma la piel con terapia de vacío.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Hifu",
-          "description": "Reafirma y tensa la piel con ultrasonido focalizado de alta intensidad.",
-          "image": "../assets/images/foto2.jpg"
-        }
+        { "title": "Higiene facial", "description": "Un tratamiento de limpieza profunda que purifica y revitaliza la piel.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Tratamiento de vitaminas", "description": "Nutre y revitaliza tu piel con un aporte concentrado de vitaminas.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Tratamiento para manchas", "description": "Reduce y aclara las manchas de la piel para un tono uniforme.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Tratamiento para acné", "description": "Controla y previene el acné para una piel más limpia y saludable.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Tratamiento para contorno de ojos", "description": "Hidrata y mejora la apariencia del contorno de ojos.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Tratamiento para cuello y escote", "description": "Rejuvenece y reafirma la piel del cuello y escote.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Diatermia facial", "description": "Estimula el colágeno para un aspecto rejuvenecido de la piel.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Radiofrecuencia", "description": "Mejora la elasticidad y firmeza de la piel a través de ondas de radiofrecuencia.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Mesoterapia", "description": "Hidrata y revitaliza la piel con microinyecciones de nutrientes.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Dermapen", "description": "Estimula la producción de colágeno con tecnología de micropunción.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Vacumterapia", "description": "Mejora la circulación y reafirma la piel con terapia de vacío.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Hifu", "description": "Reafirma y tensa la piel con ultrasonido focalizado de alta intensidad.", "image": "../assets/images/foto2.jpg" }
       ]
     },
     "eye-aesthetics": {
       "title": "Estética de la mirada",
       "jobs": [
-        {
-          "title": "Tinte de cejas y pestañas",
-          "description": "Realza el color natural de tus cejas y pestañas.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Lifting de pestañas",
-          "description": "Levanta y riza las pestañas para una mirada más expresiva.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Extensión de pestañas",
-          "description": "Alarga y da volumen a tus pestañas para un efecto dramático.",
-          "image": "../assets/images/foto2.jpg"
-        }
+        { "title": "Tinte de cejas y pestañas", "description": "Realza el color natural de tus cejas y pestañas.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Lifting de pestañas", "description": "Levanta y riza las pestañas para una mirada más expresiva.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Extensión de pestañas", "description": "Alarga y da volumen a tus pestañas para un efecto dramático.", "image": "../assets/images/foto2.jpg" }
       ]
     },
     "makeup": {
       "title": "Maquillaje",
       "jobs": [
-        {
-          "title": "Maquillaje para eventos y bodas",
-          "description": "Maquillaje profesional adaptado a cada evento para resaltar tu belleza.",
-          "image": "../assets/images/foto3.jpg"
-        }
+        { "title": "Maquillaje para eventos y bodas", "description": "Maquillaje profesional adaptado a cada evento para resaltar tu belleza.", "image": "../assets/images/foto3.jpg" }
       ]
     },
     "hand-care": {
       "title": "Cuidado de manos",
       "jobs": [
-        {
-          "title": "Manicura",
-          "description": "Embellece y cuida tus manos y uñas con una manicura profesional.",
-          "image": "../assets/images/foto4.jpg"
-        },
-        {
-          "title": "Esmaltado permanente",
-          "description": "Uñas perfectas por más tiempo con nuestro esmaltado permanente.",
-          "image": "../assets/images/foto4.jpg"
-        }
+        { "title": "Manicura", "description": "Embellece y cuida tus manos y uñas con una manicura profesional.", "image": "../assets/images/foto4.jpg" },
+        { "title": "Esmaltado permanente", "description": "Uñas perfectas por más tiempo con nuestro esmaltado permanente.", "image": "../assets/images/foto4.jpg" }
       ]
     },
     "hair-removal": {
       "title": "Depilaciones",
       "jobs": [
-        {
-          "title": "Depilación cera fría y caliente",
-          "description": "Elimina el vello de forma rápida y duradera con cera fría o caliente.",
-          "image": "../assets/images/foto3.jpg"
-        },
-        {
-          "title": "Depilación eléctrica",
-          "description": "Eliminación definitiva del vello mediante corriente eléctrica.",
-          "image": "../assets/images/foto3.jpg"
-        },
-        {
-          "title": "Depilación láser diodo",
-          "description": "Resultados a largo plazo con depilación láser diodo.",
-          "image": "../assets/images/foto3.jpg"
-        }
+        { "title": "Depilación cera fría y caliente", "description": "Elimina el vello de forma rápida y duradera con cera fría o caliente.", "image": "../assets/images/foto3.jpg" },
+        { "title": "Depilación eléctrica", "description": "Eliminación definitiva del vello mediante corriente eléctrica.", "image": "../assets/images/foto3.jpg" },
+        { "title": "Depilación láser diodo", "description": "Resultados a largo plazo con depilación láser diodo.", "image": "../assets/images/foto3.jpg" }
       ]
     },
     "spa-massages": {
       "title": "Spa y masajes",
       "jobs": [
-        {
-          "title": "Masaje relajante",
-          "description": "Relájate y libera tensiones con un masaje relajante.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Masaje deportivo",
-          "description": "Alivia el cansancio y la tensión muscular tras el ejercicio.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Masaje drenaje linfático",
-          "description": "Elimina toxinas y reduce la retención de líquidos.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Masaje adhara",
-          "description": "Masaje exclusivo para relajar y revitalizar el cuerpo.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Exfoliación corporal",
-          "description": "Elimina células muertas y rejuvenece la piel del cuerpo.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Exfoliación antiedad",
-          "description": "Mejora la textura de la piel y reduce los signos del envejecimiento.",
-          "image": "../assets/images/foto2.jpg"
-        },
-        {
-          "title": "Diatermia recuperadora",
-          "description": "Masaje terapéutico para recuperación postoperatoria y cicatrices. (masaje, post-operatoria, post-cirujía, cicatrices)",
-          "image": "../assets/images/foto2.jpg"
-        }
+        { "title": "Masaje relajante", "description": "Relájate y libera tensiones con un masaje relajante.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Masaje deportivo", "description": "Alivia el cansancio y la tensión muscular tras el ejercicio.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Masaje drenaje linfático", "description": "Elimina toxinas y reduce la retención de líquidos.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Masaje adhara", "description": "Masaje exclusivo para relajar y revitalizar el cuerpo.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Exfoliación corporal", "description": "Elimina células muertas y rejuvenece la piel del cuerpo.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Exfoliación antiedad", "description": "Mejora la textura de la piel y reduce los signos del envejecimiento.", "image": "../assets/images/foto2.jpg" },
+        { "title": "Diatermia recuperadora", "description": "Masaje terapéutico para recuperación postoperatoria y cicatrices. (masaje, post-operatoria, post-cirujía, cicatrices)", "image": "../assets/images/foto2.jpg" }
       ]
     },
     "body-treatments": {
       "title": "Tratamientos corporales",
       "jobs": [
-        {
-          "title": "Diatermia",
-          "description": "Tratamiento de calor para mejorar la firmeza y reducir grasa localizada.",
-          "image": "../assets/images/foto4.jpg"
-        },
-        {
-          "title": "Radiofrecuencia",
-          "description": "Aumenta la producción de colágeno para una piel más firme.",
-          "image": "../assets/images/foto4.jpg"
-        },
-        {
-          "title": "Vacumterapia",
-          "description": "Mejora la circulación y la firmeza de la piel con terapia de vacío.",
-          "image": "../assets/images/foto4.jpg"
-        },
-        {
-          "title": "Electroestimación",
-          "description": "Fortalece los músculos y mejora el tono con electroestimulación.",
-          "image": "../assets/images/foto4.jpg"
-        },
-        {
-          "title": "Mesoterapia corporal",
-          "description": "Rejuvenece y tonifica la piel con vitaminas e hidratación.",
-          "image": "../assets/images/foto4.jpg"
-        },
-        {
-          "title": "Presoterapia",
-          "description": "Estimula el sistema linfático y mejora la circulación.",
-          "image": "../assets/images/foto4.jpg"
-        },
-        {
-          "title": "Hifu",
-          "description": "Tensa y reafirma la piel con ultrasonido de alta frecuencia.",
-          "image": "../assets/images/foto4.jpg"
-        }
+        { "title": "Diatermia", "description": "Tratamiento de calor para mejorar la firmeza y reducir grasa localizada.", "image": "../assets/images/foto4.jpg" },
+        { "title": "Radiofrecuencia", "description": "Aumenta la producción de colágeno para una piel más firme.", "image": "../assets/images/foto4.jpg" },
+        { "title": "Vacumterapia", "description": "Mejora la circulación y la firmeza de la piel con terapia de vacío.", "image": "../assets/images/foto4.jpg" },
+        { "title": "Electroestimulación", "description": "Fortalece los músculos y mejora el tono con electroestimulación.", "image": "../assets/images/foto4.jpg" },
+        { "title": "Mesoterapia corporal", "description": "Rejuvenece y tonifica la piel con vitaminas e hidratación.", "image": "../assets/images/foto4.jpg" },
+        { "title": "Presoterapia", "description": "Estimula el sistema linfático y mejora la circulación.", "image": "../assets/images/foto4.jpg" },
+        { "title": "Hifu", "description": "Tensa y reafirma la piel con ultrasonido de alta frecuencia.", "image": "../assets/images/foto4.jpg" }
       ]
     },
     "foot-care": {
       "title": "Cuidado de pies",
       "jobs": [
-        {
-          "title": "Pedicura",
-          "description": "Embellece y cuida tus pies y uñas con una pedicura profesional.",
-          "image": "../assets/images/foto4.jpg"
-        },
-        {
-          "title": "Esmaltado permanente",
-          "description": "Mantén tus uñas de los pies perfectas por más tiempo.",
-          "image": "../assets/images/foto4.jpg"
-        }
+        { "title": "Pedicura", "description": "Embellece y cuida tus pies y uñas con una pedicura profesional.", "image": "../assets/images/foto4.jpg" },
+        { "title": "Esmaltado permanente", "description": "Mantén tus uñas de los pies perfectas por más tiempo.", "image": "../assets/images/foto4.jpg" }
       ]
     }
+  },
+  "footer": {
+    "title": "Adhara Beauty & Wellness",
+    "linksTitle": "Enlaces Rápidos",
+    "contactTitle": "Contacto",
+    "contactScheduleTitle": "Contacto y Horario",
+    "copyright": "Todos los derechos reservados",
+    "schedule": [
+      { "day": "Lunes - Viernes", "hours": "10:00–14:00 | 15:00–19:00" },
+      { "day": "Sábados y Domingos", "hours": "Cerrado" }
+    ]
+  },
+  "contact": {
+    "title": "Ponte en Contacto con Adhara",
+    "detailsTitle": "Detalles y Citas",
+    "scheduleTitle": "Horario",
+    "socialTitle": "Síguenos",
+    "location": "Calle Villalonga, 33",
+    "city": "Palma de Mallorca, España",
+    "phone": "912 345 678",
+    "whatsapp": "623 04 32 48",
+    "email": "adhara@adharabeautywellness.com",
+    "weekdays": "Lunes a Viernes: 10:00–14:00 y 15:00–19:00",
+    "saturday": "Sábados: Cerrado",
+    "sunday": "Domingos: Cerrado"
   }
 }
