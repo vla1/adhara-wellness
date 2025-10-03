@@ -1,9 +1,47 @@
 <footer class="footer">
-  <div class="footer-content">
-    <h4>Contact</h4>
-    <p><a href="https://www.google.com/maps?q=Calle+Villalonga+33+Palma" target="_blank" rel="noopener noreferrer">Calle Villalonga, 33</a></p>
-    <p>971 732 146</p>
-    <p><a href="https://wa.me/623043248" target="_blank"> 623 04 32 48</a></p>
-    <p><a href="mailto:adhara@adharabeautywellness.com">adhara@adharabeautywellness.com</a></p>
+  <div class="footer-container">
+
+    <div class="footer-column contact-info">
+      <h4 class="column-title">
+        Contáctanos
+      </h4>
+      <p>
+        <a href="https://www.google.com/maps?q=Calle+Villalonga+33+Palma" target="_blank" rel="noopener noreferrer">
+          <i class="fas fa-location-arrow"></i> Calle Villalonga, 33
+        </a>
+      </p>
+      <p><i class="fas fa-phone"></i> 971 732 146</p>
+      <p>
+        <a href="https://wa.me/623043248" target="_blank">
+          <i class="fab fa-whatsapp"></i> 623 04 32 48
+        </a>
+      </p>
+      <p>
+        <a href="mailto:adhara@adharabeautywellness.com">
+          <i class="fas fa-envelope"></i> adhara@adharabeautywellness.com
+        </a>
+      </p>
+    </div>
+
+    <div class="footer-column quick-links">
+      <h4 class="column-title">Enlaces Rápidos</h4>
+      <ul>
+        <li><a [routerLink]="['/home']">Inicio</a></li>
+        <li><a [routerLink]="['/services/spa-massages']">Spa y Masajes</a></li>
+        <li><a [routerLink]="['/services/facial-treatments']">Tratamientos Faciales</a></li>
+        <li><a [routerLink]="['/contact']">Pedir Cita</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column schedule-social">
+      <h4 class="column-title">Horario</h4>
+      <p>Lunes a Viernes: 10:00 - 19:00</p>
+      <p>Sábados: 10:00 - 14:00</p>
+      <p class="copyright">© {{ 'now' | date: 'yyyy' }} Adhara Beauty & Wellness. Todos los derechos reservados.</p>
+      <div class="social-icons">
+        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      </div>
+    </div>
   </div>
 </footer>

@@ -1,31 +1,158 @@
 
 @import '../../styles/constants.scss';
 
-.footer {
-  background-color: #f5f5f5;
-  padding: 20px;
-  padding-bottom: 40px;
-  text-align: center;
-  color: #333;
+// Variables para mejor legibilidad
+$footer-bg: #F5F5F5; // Tu color terciario (Gris muy claro)
+$text-color: #333333;
+$link-color: #707070; // Tu color de texto
+$hover-color: $primary; // Tu color primario
 
-  .footer-content {
+.footer {
+  background-color: $footer-bg;
+  padding: $size-lg $size-lg; // Más padding para más cuerpo
+  color: $text-color;
+  border-top: 2px solid $hover-color; // Línea superior con el color de marca
+}
+
+.footer-container {
+  max-width: 1200px; // Limitar el ancho en pantallas grandes
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); // 3 columnas por defecto
+  gap: $size-xl;
+  text-align: left;
+}
+
+.footer-column {
+  h4 {
+    // Estilo para los títulos de columna
+    color: $hover-color; // Color principal para los títulos
+    margin-bottom: $size-sm;
+    font-size: 1.4em;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: $size-sm;
-    >p {
-      margin: 0;
-      font-size: 16px;
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+
+    // Estilo para los íconos dentro de <h4>
+    > i {
+      margin-right: $size-sm;
+      font-size: 1.1em;
     }
-    >p >a{
-      text-decoration: none;
+  }
+
+p {
+  margin: $size-xs 0;
+  font-size: 1em;
+  line-height: 1.5;
+
+  > i,
+  a > i {
+    margin-right: $size-sm;
+    width: $size-lg;
+    text-align: center;
+    color: $hover-color;
+  }
+
+  a {
+    color: $link-color;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: $hover-color;
+      text-decoration: underline;
+    }
+  }
+}
+
+  // Estilos específicos para la columna de Enlaces Rápidos
+  &.quick-links {
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        margin-bottom: $size-xs;
+
+        a {
+          color: $link-color;
+          text-decoration: none;
+          display: inline-block;
+          padding: 2px 0;
+
+          &:hover {
+            color: $hover-color;
+            transform: translateX(5px); // Pequeño desplazamiento en hover
+            transition: all 0.2s ease;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* --- Redes Sociales y Copyright --- */
+.social-icons {
+  margin-top: $size-md;
+
+  a {
+    font-size: 1.5em;
+    color: $link-color;
+    margin: 0 $size-sm;
+    transition: color 0.3s ease, transform 0.3s ease;
+
+    &:hover {
+      color: $hover-color;
+      transform: scale(1.1);
+    }
+  }
+}
+
+.copyright {
+  margin-top: $size-lg;
+  font-size: 0.9em !important;
+  color: #AAAAAA !important; // Gris claro para el copyright
+}
+
+
+/* --- Media Queries para Responsividad --- */
+@media (max-width: $screen-md) {
+  .footer-container {
+    grid-template-columns: 1fr; // Una sola columna en dispositivos medianos/pequeños
+    text-align: center;
+  }
+
+  .footer-column {
+    // Centrar los títulos e íconos
+    h4 {
+      justify-content: center;
+    }
+
+    // Centrar los textos de contacto
+    p {
+      a {
+        // Asegurarse de que el ícono esté alineado en el centro del texto
+        display: inline-flex;
+        align-items: center;
+
+        > i {
+           width: auto; // Desactivar el ancho fijo
+        }
+      }
+    }
+
+    // Centrar lista de enlaces
+    &.quick-links ul {
+        display: inline-block; // Para que la lista se centre como un bloque
+        text-align: left;
     }
   }
 }
 
 @media (max-width: $screen-sm) {
-  .footer-content p {
-    font-size: 14px;
+  .footer {
+    padding: $size-lg $size-md;
   }
 }

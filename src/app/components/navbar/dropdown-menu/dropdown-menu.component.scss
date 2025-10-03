@@ -10,28 +10,28 @@
   .simplebtn, .dropbtn, .language-switcher button { // Aplicamos estilos base a todos los botones
     // Estilos base
     background-color: $white;
-    color: #333333; /* Texto más oscuro para mejor legibilidad */
-    font-family: 'BodoniCyrillic', serif; /* Usamos la fuente definida globalmente */
-    font-size: 1.1em; /* Un poco más grande para el menú */
+    color: #333333;
+    font-family: 'BodoniCyrillic', serif;
+    font-size: 1.1em;
     font-weight: 500;
-    text-transform: uppercase; /* Darles un toque elegante */
+    text-transform: uppercase;
 
-    padding: $size-xs $size-md; /* Padding ajustado */
+    padding: $size-xs $size-md;
     border-radius: $size-s;
-    border: 1px solid transparent; /* Borde transparente inicial */
+    border: 1px solid transparent;
     cursor: pointer;
-    transition: all 0.3s ease; /* Transiciones suaves para los efectos */
+    transition: all 0.3s ease;
   }
 
   /* Estilos para el botón simple y la parte principal del dropdown */
   .simplebtn, .dropbtn {
-    letter-spacing: 0.05em; /* Separación de letras para elegancia */
+    letter-spacing: 0.05em;
   }
 
   .simplebtn:hover {
     color: $primary;
-    border-color: $primary; /* Resaltar con el color primario */
-    box-shadow: 0 2px 5px rgba($primary, 0.1); /* Sombra sutil */
+    border-color: $primary;
+    box-shadow: 0 2px 5px rgba($primary, 0.1);
   }
 
   // El .dropbtn ya tiene su estilo de hover dentro de .dropdown:hover,
@@ -68,11 +68,11 @@
     top: 100%; /* Colocar justo debajo del botón */
     left: 0;
     background-color: #f9f9f9;
-    min-width: 220px; /* Un poco más ancho para los nombres de servicio */
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+    min-width: 220px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 100; // Asegurar que esté por encima de otros elementos
     border-radius: $size-s;
-    overflow: hidden; /* Para que los bordes redondeados se vean bien */
+    overflow: hidden;
 
     /* Efecto de entrada sutil */
     opacity: 0;
@@ -80,7 +80,7 @@
     transition: opacity 0.3s ease, transform 0.3s ease;
 
     > a {
-      color: #555555; /* Gris más suave para los subelementos */
+      color: #555555;
       font-size: 1em;
       padding: $size-s $size-md;
       text-decoration: none;
@@ -88,8 +88,8 @@
       transition: background-color 0.2s, color 0.2s;
 
       &:hover {
-        color: $white; /* Texto blanco en hover */
-        background-color: $primary; /* Fondo con color primario */
+        color: $white;
+        background-color: $primary;
       }
     }
   }
@@ -98,13 +98,13 @@
   .language-switcher {
       /* Estilos base para contener los botones */
       button {
-          margin-left: $size-xs; /* Separación entre los botones de idioma */
+          margin-left: $size-xs;
           padding: $size-xs $size-s;
           font-size: 0.9em;
           text-transform: none;
 
           &:hover:not(:disabled) {
-              background-color: lighten($primary, 30%); /* Color de hover más suave */
+              background-color: lighten($primary, 30%);
               color: #333333;
           }
 
