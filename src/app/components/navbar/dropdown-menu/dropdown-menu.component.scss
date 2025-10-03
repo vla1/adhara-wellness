@@ -1,56 +1,121 @@
 @import '../../../styles/constants.scss';
 
+// ... (El resto de tu código SCSS)
+
 .menu-container {
   display: flex;
   flex-direction: row;
   gap: $size-sm;
 
-  .simplebtn, .dropbtn {
+  .simplebtn, .dropbtn, .language-switcher button { // Aplicamos estilos base a todos los botones
+    // Estilos base
     background-color: $white;
-    padding: $size-sm $size-md;
+    color: #333333; /* Texto más oscuro para mejor legibilidad */
+    font-family: 'BodoniCyrillic', serif; /* Usamos la fuente definida globalmente */
+    font-size: 1.1em; /* Un poco más grande para el menú */
+    font-weight: 500;
+    text-transform: uppercase; /* Darles un toque elegante */
+
+    padding: $size-xs $size-md; /* Padding ajustado */
     border-radius: $size-s;
-    border: none;
+    border: 1px solid transparent; /* Borde transparente inicial */
     cursor: pointer;
+    transition: all 0.3s ease; /* Transiciones suaves para los efectos */
   }
 
-  .simplebtn:hover{
-    color: $primary
-
+  /* Estilos para el botón simple y la parte principal del dropdown */
+  .simplebtn, .dropbtn {
+    letter-spacing: 0.05em; /* Separación de letras para elegancia */
   }
 
+  .simplebtn:hover {
+    color: $primary;
+    border-color: $primary; /* Resaltar con el color primario */
+    box-shadow: 0 2px 5px rgba($primary, 0.1); /* Sombra sutil */
+  }
+
+  // El .dropbtn ya tiene su estilo de hover dentro de .dropdown:hover,
+  // pero podemos añadirle el borde por defecto.
+  .dropbtn {
+      &:hover {
+          color: $primary;
+          border-color: $primary;
+      }
+  }
+
+  // Mejoras para el menú desplegable (Dropdown)
   .dropdown {
     position: relative;
     display: inline-block;
-    &:hover{
+
+    &:hover {
       .dropdown-content {
         display: block;
+        transform: translateY(0); /* Al mostrarse, vuelve a su posición normal */
+        opacity: 1;
       }
-      .dropbtn{
+      .dropbtn {
         color: $primary;
+        border-color: $primary;
+        box-shadow: 0 2px 5px rgba($primary, 0.1);
       }
-    }
-    .dropdown-content >a:hover{
-      color: $primary
-
     }
   }
 
   .dropdown-content {
     display: none;
     position: absolute;
+    top: 100%; /* Colocar justo debajo del botón */
+    left: 0;
     background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px $size-sm $size-s 0px rgba(0, 0, 0, 0.1);
-    z-index: 1;
-    >a{
-      color: black;
-      padding: $size-sm $size-md;
+    min-width: 220px; /* Un poco más ancho para los nombres de servicio */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+    z-index: 100; // Asegurar que esté por encima de otros elementos
+    border-radius: $size-s;
+    overflow: hidden; /* Para que los bordes redondeados se vean bien */
+
+    /* Efecto de entrada sutil */
+    opacity: 0;
+    transform: translateY($size-xs);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+
+    > a {
+      color: #555555; /* Gris más suave para los subelementos */
+      font-size: 1em;
+      padding: $size-s $size-md;
       text-decoration: none;
       display: block;
+      transition: background-color 0.2s, color 0.2s;
+
+      &:hover {
+        color: $white; /* Texto blanco en hover */
+        background-color: $primary; /* Fondo con color primario */
+      }
     }
   }
-}
 
+  /* Mejoras para el selector de idioma */
+  .language-switcher {
+      /* Estilos base para contener los botones */
+      button {
+          margin-left: $size-xs; /* Separación entre los botones de idioma */
+          padding: $size-xs $size-s;
+          font-size: 0.9em;
+          text-transform: none;
+
+          &:hover:not(:disabled) {
+              background-color: lighten($primary, 30%); /* Color de hover más suave */
+              color: #333333;
+          }
+
+          &:disabled {
+              background-color: $primary;
+              color: $white;
+              cursor: default;
+          }
+      }
+  }
+}
 
 @media (max-width: $screen-xs) {
   .menu-container {
