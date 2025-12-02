@@ -1,4 +1,5 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 import { Subscription } from 'rxjs';
 import { LanguageService } from 'src/app/services/language.service';
 
@@ -16,12 +17,16 @@ export class HomeComponent implements OnInit, OnDestroy{
   data:any;
   private languageSubscription: Subscription | undefined;
 
-  constructor(private languageService:LanguageService){
+  constructor(private languageService:LanguageService, private titleService:Title, private metaService:Meta) {
   }
   ngOnInit() {
     // Suscribirse al cambio de idioma
     this.languageSubscription = this.languageService.getLanguageObservable().subscribe((lang) => {
       this.loadServices(lang); // Cargar los datos del idioma seleccionado
+    });
+    this.metaService.updateTag({
+        name: 'description',
+        content: 'Bienvenido a Adhara Beauty & Wellness. Descubre nuestros tratamientos exclusivos de belleza y relajación.'
     });
   }
 

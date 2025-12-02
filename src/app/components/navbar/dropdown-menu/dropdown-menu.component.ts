@@ -1,4 +1,4 @@
-import { Component,OnInit  } from '@angular/core';
+import { Component,OnDestroy,OnInit  } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { LanguageService } from 'src/app/services/language.service';
 import { Subscription } from 'rxjs';
@@ -8,7 +8,7 @@ import { Subscription } from 'rxjs';
   templateUrl: './dropdown-menu.component.html',
   styleUrls: ['./dropdown-menu.component.scss']
 })
-export class DropdownMenuComponent implements OnInit {
+export class DropdownMenuComponent implements OnInit, OnDestroy {
   menuItems: any[] = [];
   private languageSubscription: Subscription | undefined;
 

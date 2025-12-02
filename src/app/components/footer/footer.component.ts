@@ -19,6 +19,7 @@ export class FooterComponent implements OnInit, OnDestroy {
   iLocation:string;
 
   data: any;
+  now: Date = new Date();
   private languageSubscription: Subscription | undefined;
 
   constructor(private languageService: LanguageService) {
