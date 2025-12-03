@@ -3,81 +3,81 @@
     "home": {
       "title": "Adhara | Spa, Masajes y Belleza en Palma de Mallorca",
       "description": "Reservado para ti, un momento exclusivo de Relajación, Belleza y Bienestar. Descubre nuestros tratamientos faciales, masajes y estética.",
-      "ogImage": "https://www.tuweb.com/assets/images/home-destacada.jpg",
-      "canonicalEs": "https://www.tuweb.com/home",
-      "canonicalEn": "https://www.tuweb.com/en/home"
+      "ogImage": "https://adharabeautywellness.netlify.app/es/assets/images/home-destacada.jpg",
+      "canonicalEs": "https://adharabeautywellness.netlify.app/es/home",
+      "canonicalEn": "https://adharabeautywellness.netlify.app/en/home"
     },
 
     "contact": {
       "title": "Contacto y Citas | Adhara Beauty & Wellness",
       "description": "Encuéntranos en Calle Villalonga, 33 en Palma. Llámanos o escríbenos para reservar tu próxima cita. Consulta nuestro horario y redes sociales.",
-      "ogImage": "https://www.tuweb.com/assets/images/contact-destacada.jpg",
-      "canonicalEs": "https://www.tuweb.com/contact",
-      "canonicalEn": "https://www.tuweb.com/en/contact"
+      "ogImage": "https://adharabeautywellness.netlify.app/es/assets/images/contact-destacada.jpg",
+      "canonicalEs": "https://adharabeautywellness.netlify.app/es/contact",
+      "canonicalEn": "https://adharabeautywellness.netlify.app/en/contact"
     },
 
     "services": {
       "facial-treatments": {
         "title": "Tratamientos Faciales Premium en Palma | Adhara Beauty",
         "description": "Descubre higiene facial, vitaminas, radiofrecuencia, Dermapen y Hifu. Piel revitalizada garantizada en Palma de Mallorca.",
-        "ogImage": "https://www.tuweb.com/assets/images/seo/facial-treatment-og.jpg",
-        "canonicalEs": "https://www.tuweb.com/services/facial-treatments",
-        "canonicalEn": "https://www.tuweb.com/en/services/facial-treatments"
+        "ogImage": "https://adharabeautywellness.netlify.app/es/assets/images/seo/facial-treatment-og.jpg",
+        "canonicalEs": "https://adharabeautywellness.netlify.app/es/services/facial-treatments",
+        "canonicalEn": "https://adharabeautywellness.netlify.app/en/services/facial-treatments"
       },
       "eye-aesthetics": {
         "title": "Estética de la Mirada y Pestañas | Adhara Beauty",
         "description": "Servicios especializados de tinte de cejas y pestañas, lifting y extensión de pestañas para una mirada más expresiva.",
-        "ogImage": "https://www.tuweb.com/assets/images/seo/eye-aesthetics-og.jpg",
-        "canonicalEs": "https://www.tuweb.com/services/eye-aesthetics",
-        "canonicalEn": "https://www.tuweb.com/en/services/eye-aesthetics"
+        "ogImage": "https://adharabeautywellness.netlify.app/es/assets/images/seo/eye-aesthetics-og.jpg",
+        "canonicalEs": "https://adharabeautywellness.netlify.app/es/services/eye-aesthetics",
+        "canonicalEn": "https://adharabeautywellness.netlify.app/en/services/eye-aesthetics"
       },
       "makeup": {
         "title": "Maquillaje Profesional para Eventos y Bodas | Palma",
         "description": "Te ofrecemos servicios de maquillaje profesional adaptado a cada evento, bodas y ocasiones especiales en Mallorca.",
-        "ogImage": "https://www.tuweb.com/assets/images/seo/makeup-og.jpg",
-        "canonicalEs": "https://www.tuweb.com/services/makeup",
-        "canonicalEn": "https://www.tuweb.com/en/services/makeup"
+        "ogImage": "https://adharabeautywellness.netlify.app/es/assets/images/seo/makeup-og.jpg",
+        "canonicalEs": "https://adharabeautywellness.netlify.app/es/services/makeup",
+        "canonicalEn": "https://adharabeautywellness.netlify.app/en/services/makeup"
       },
       "hand-care": {
         "title": "Manicura y Cuidado de Manos en Palma | Adhara",
         "description": "Embellece y cuida tus manos y uñas con una manicura profesional y esmaltado permanente para unas uñas perfectas por más tiempo.",
-        "ogImage": "https://www.tuweb.com/assets/images/seo/hand-care-og.jpg",
-        "canonicalEs": "https://www.tuweb.com/services/hand-care",
-        "canonicalEn": "https://www.tuweb.com/en/services/hand-care"
+        "ogImage": "https://adharabeautywellness.netlify.app/es/assets/images/seo/hand-care-og.jpg",
+        "canonicalEs": "https://adharabeautywellness.netlify.app/es/services/hand-care",
+        "canonicalEn": "https://adharabeautywellness.netlify.app/en/services/hand-care"
       },
       "hair-removal": {
         "title": "Depilación Láser, Cera y Eléctrica | Adhara Mallorca",
         "description": "Servicios de depilación con cera fría/caliente, depilación eléctrica y depilación láser diodo para resultados duraderos.",
-        "ogImage": "https://www.tuweb.com/assets/images/seo/hair-removal-og.jpg",
-        "canonicalEs": "https://www.tuweb.com/services/hair-removal",
-        "canonicalEn": "https://www.tuweb.com/en/services/hair-removal"
+        "ogImage": "https://adharabeautywellness.netlify.app/es/assets/images/seo/hair-removal-og.jpg",
+        "canonicalEs": "https://adharabeautywellness.netlify.app/es/services/hair-removal",
+        "canonicalEn": "https://adharabeautywellness.netlify.app/en/services/hair-removal"
       },
       "spa-massages": {
         "title": "Masajes y Spa Relajantes en Mallorca | Adhara Beauty",
         "description": "Masaje relajante, deportivo, drenaje linfático y masaje Adhara exclusivo. Además, exfoliación corporal para renovar tu piel.",
-        "ogImage": "https://www.tuweb.com/assets/images/seo/spa-massages-og.jpg",
-        "canonicalEs": "https://www.tuweb.com/services/spa-massages",
-        "canonicalEn": "https://www.tuweb.com/en/services/spa-massages"
+        "ogImage": "https://adharabeautywellness.netlify.app/es/assets/images/seo/spa-massages-og.jpg",
+        "canonicalEs": "https://adharabeautywellness.netlify.app/es/services/spa-massages",
+        "canonicalEn": "https://adharabeautywellness.netlify.app/en/services/spa-massages"
       },
       "body-treatments": {
         "title": "Tratamientos Corporales y Estéticos en Palma | Adhara",
         "description": "Diatermia, Radiofrecuencia, Vacumterapia, Mesoterapia, Presoterapia y Hifu corporal para firmeza y reducción de grasa localizada.",
-        "ogImage": "https://www.tuweb.com/assets/images/seo/body-treatments-og.jpg",
-        "canonicalEs": "https://www.tuweb.com/services/body-treatments",
-        "canonicalEn": "https://www.tuweb.com/en/services/body-treatments"
+        "ogImage": "https://adharabeautywellness.netlify.app/es/assets/images/seo/body-treatments-og.jpg",
+        "canonicalEs": "https://adharabeautywellness.netlify.app/es/services/body-treatments",
+        "canonicalEn": "https://adharabeautywellness.netlify.app/en/services/body-treatments"
       },
       "foot-care": {
         "title": "Pedicura y Cuidado de Pies en Palma | Esmaltado Permanente",
         "description": "Embellece y cuida tus pies con pedicura profesional y esmaltado permanente. ¡Pies perfectos y saludables!",
-        "ogImage": "https://www.tuweb.com/assets/images/seo/foot-care-og.jpg",
-        "canonicalEs": "https://www.tuweb.com/services/foot-care",
-        "canonicalEn": "https://www.tuweb.com/en/services/foot-care"
+        "ogImage": "https://adharabeautywellness.netlify.app/es/assets/images/seo/foot-care-og.jpg",
+        "canonicalEs": "https://adharabeautywellness.netlify.app/es/services/foot-care",
+        "canonicalEn": "https://adharabeautywellness.netlify.app/en/services/foot-care"
       }
     },
 
     "default": {
       "siteName": "Adhara Beauty & Wellness",
-      "defaultUrl": "https://www.tuweb.com/home"
+      "defaultUrl": "https://adharabeautywellness.netlify.app/es/home"
     }
   }
 }
