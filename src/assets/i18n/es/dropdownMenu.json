@@ -2,23 +2,23 @@
   "menu": [
     {
       "title": "Inicio",
-      "link": "/home"
+      "link": "/es/home"
     },
     {"title": "Servicios",
       "subElements": [
-        { "title": "Tratamientos faciales", "link": "/services/facial-treatments" },
-        { "title": "Estética de la mirada", "link": "/services/eye-aesthetics" },
-        { "title": "Maquillaje", "link": "/services/makeup" },
-        { "title": "Cuidado de manos", "link": "/services/hand-care" },
-        { "title": "Depilaciones", "link": "/services/hair-removal" },
-        { "title": "Spa y masajes", "link": "/services/spa-massages" },
-        { "title": "Tratamientos corporales", "link": "/services/body-treatments" },
-        { "title": "Cuidado de pies", "link": "/services/foot-care" }
+        { "title": "Tratamientos faciales", "link": "/es/services/facial-treatments" },
+        { "title": "Estética de la mirada", "link": "/es/services/eye-aesthetics" },
+        { "title": "Maquillaje", "link": "/es/services/makeup" },
+        { "title": "Cuidado de manos", "link": "/es/services/hand-care" },
+        { "title": "Depilaciones", "link": "/es/services/hair-removal" },
+        { "title": "Spa y masajes", "link": "/es/services/spa-massages" },
+        { "title": "Tratamientos corporales", "link": "/es/services/body-treatments" },
+        { "title": "Cuidado de pies", "link": "/es/services/foot-care" }
       ]
     },
     {
       "title": "Contacto",
-      "link": "/contact"
+      "link": "/es/contact"
     }
   ]
 }

@@ -23,13 +23,13 @@
       </p>
     </div>
 
-    <div class="footer-column quick-links">
+  <div class="footer-column quick-links">
       <h4 class="column-title">{{'footer.linksTitle' | translate}}</h4>
       <ul>
-        <li><a [routerLink]="['/home']">{{'navbarMenu.0.title' | translate}}</a></li>
-        <li><a [routerLink]="['/services/spa-massages']">{{'services.spa-massages.title' | translate}}</a></li>
-        <li><a [routerLink]="['/services/facial-treatments']">{{'services.facial-treatments.title' | translate}}</a></li>
-        <li><a [routerLink]="['/contact']">{{'navbarMenu.2.title' | translate}}</a></li>
+        <li><a [routerLink]="getLink('home')">{{'navbarMenu.0.title' | translate}}</a></li>
+        <li><a [routerLink]="getLink('services/spa-massages')">{{'services.spa-massages.title' | translate}}</a></li>
+        <li><a [routerLink]="getLink('services/facial-treatments')">{{'services.facial-treatments.title' | translate}}</a></li>
+        <li><a [routerLink]="getLink('contact')">{{'navbarMenu.2.title' | translate}}</a></li>
       </ul>
     </div>
 

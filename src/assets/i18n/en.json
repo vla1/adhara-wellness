@@ -2,24 +2,24 @@
   "navbarMenu": [
     {
       "title": "Home",
-      "link": "/home"
+      "link": "/en/home"
     },
     {
       "title": "Services",
       "subElements": [
-        { "title": "Facial Treatments", "link": "/services/facial-treatments" },
-        { "title": "Eye Aesthetics", "link": "/services/eye-aesthetics" },
-        { "title": "Makeup", "link": "/services/makeup" },
-        { "title": "Hand Care", "link": "/services/hand-care" },
-        { "title": "Hair Removal", "link": "/services/hair-removal" },
-        { "title": "Spa & Massages", "link": "/services/spa-massages" },
-        { "title": "Body Treatments", "link": "/services/body-treatments" },
-        { "title": "Foot Care", "link": "/services/foot-care" }
+        { "title": "Facial Treatments", "link": "/en/services/facial-treatments" },
+        { "title": "Eye Aesthetics", "link": "/en/services/eye-aesthetics" },
+        { "title": "Makeup", "link": "/en/services/makeup" },
+        { "title": "Hand Care", "link": "/en/services/hand-care" },
+        { "title": "Hair Removal", "link": "/en/services/hair-removal" },
+        { "title": "Spa & Massages", "link": "/en/services/spa-massages" },
+        { "title": "Body Treatments", "link": "/en/services/body-treatments" },
+        { "title": "Foot Care", "link": "/en/services/foot-care" }
       ]
     },
     {
       "title": "Contact",
-      "link": "/contact"
+      "link": "/en/contact"
     }
   ],
   "home": {
@@ -35,49 +35,49 @@
         {
           "title": "Facial Treatments",
           "description": "Our facial treatments will rejuvenate your skin and give it new vitality.",
-          "link": "/services/facial-treatments",
+          "link": "/en/services/facial-treatments",
           "image": "../assets/services/_MG_0586gabybianco_mask.jpg"
         },
         {
           "title": "Eye Aesthetics",
           "description": "Enhance your look with our specialized eyelash and eyebrow services.",
-          "link": "/services/eye-aesthetics",
+          "link": "/en/services/eye-aesthetics",
           "image": "../assets/services/_MG_0643gabybianco_facial.jpg"
         },
         {
           "title": "Makeup",
           "description": "We offer professional makeup services for any special occasion.",
-          "link": "/services/makeup",
+          "link": "/en/services/makeup",
           "image": "../assets/services/_MG_0627gabybianco copia_facial.jpg"
         },
         {
           "title": "Hand Care",
           "description": "Take care of your hands with our specialized treatments to keep them soft and healthy.",
-          "link": "/services/hand-care",
+          "link": "/en/services/hand-care",
           "image": "../assets/services/_MG_0648gabybianco_hands.jpg"
         },
         {
           "title": "Hair Removal",
           "description": "We offer professional hair removal for smooth, hair-free skin.",
-          "link": "/services/hair-removal",
+          "link": "/en/services/hair-removal",
           "image": "../assets/services/_MG_0712gabybianco_chest2.jpg"
         },
         {
           "title": "Spa & Massages",
           "description": "Relax and recover with our revitalizing massages and spa treatments.",
-          "link": "/services/spa-massages",
+          "link": "/en/services/spa-massages",
           "image": "../assets/services/_MG_0772gabybianco_back.jpg"
         },
         {
           "title": "Body Treatments",
           "description": "Enjoy our body treatments to improve the firmness and softness of your skin.",
-          "link": "/services/body-treatments",
+          "link": "/en/services/body-treatments",
           "image": "../assets/services/_MG_0679gabybianco_belly.jpg"
         },
         {
           "title": "Foot Care",
           "description": "We provide professional foot care to keep them healthy and soft.",
-          "link": "/services/foot-care",
+          "link": "/en/services/foot-care",
           "image": "../assets/services/_MG_0791gabybianco_foot_petal.jpg"
         }
       ],

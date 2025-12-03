@@ -2,24 +2,24 @@
   "navbarMenu": [
     {
       "title": "Inicio",
-      "link": "/home"
+    "link": "/es/home"
     },
     {
       "title": "Servicios",
       "subElements": [
-        { "title": "Tratamientos faciales", "link": "/services/facial-treatments" },
-        { "title": "Estética de la mirada", "link": "/services/eye-aesthetics" },
-        { "title": "Maquillaje", "link": "/services/makeup" },
-        { "title": "Cuidado de manos", "link": "/services/hand-care" },
-        { "title": "Depilaciones", "link": "/services/hair-removal" },
-        { "title": "Spa y masajes", "link": "/services/spa-massages" },
-        { "title": "Tratamientos corporales", "link": "/services/body-treatments" },
-        { "title": "Cuidado de pies", "link": "/services/foot-care" }
+        { "title": "Tratamientos faciales", "link": "/es/services/facial-treatments" },
+        { "title": "Estética de la mirada", "link": "/es/services/eye-aesthetics" },
+        { "title": "Maquillaje", "link": "/es/services/makeup" },
+        { "title": "Cuidado de manos", "link": "/es/services/hand-care" },
+        { "title": "Depilaciones", "link": "/es/services/hair-removal" },
+        { "title": "Spa y masajes", "link": "/es/services/spa-massages" },
+        { "title": "Tratamientos corporales", "link": "/es/services/body-treatments" },
+        { "title": "Cuidado de pies", "link": "/es/services/foot-care" }
       ]
     },
     {
       "title": "Contacto",
-      "link": "/contact"
+      "link": "/es/contact"
     }
   ],
   "home": {
@@ -35,49 +35,49 @@
         {
           "title": "Tratamientos faciales",
           "description": "Nuestros tratamientos faciales rejuvenecerán tu piel y le darán una nueva vitalidad.",
-          "link": "/services/facial-treatments",
+          "link": "/es/services/facial-treatments",
           "image": "../assets/services/_MG_0586gabybianco_mask.jpg"
         },
         {
           "title": "Estética de la mirada",
           "description": "Resalta tu mirada con nuestros servicios especializados en pestañas y cejas.",
-          "link": "/services/eye-aesthetics",
+          "link": "/es/services/eye-aesthetics",
           "image": "../assets/services/_MG_0643gabybianco_facial.jpg"
         },
         {
           "title": "Maquillaje",
           "description": "Te ofrecemos servicios de maquillaje profesional para cualquier ocasión especial.",
-          "link": "/services/makeup",
+          "link": "/es/services/makeup",
           "image": "../assets/services/_MG_0627gabybianco copia_facial.jpg"
         },
         {
           "title": "Cuidado de manos",
           "description": "Cuida tus manos con nuestros tratamientos especializados para mantenerlas suaves y saludables.",
-          "link": "/services/hand-care",
+          "link": "/es/services/hand-care",
           "image": "../assets/services/_MG_0648gabybianco_hands.jpg"
         },
         {
           "title": "Depilaciones",
           "description": "Ofrecemos depilación profesional para una piel suave y sin vello.",
-          "link": "/services/hair-removal",
+          "link": "/es/services/hair-removal",
           "image": "../assets/services/_MG_0712gabybianco_chest2.jpg"
         },
         {
           "title": "Spa y masajes",
           "description": "Relájate y recupérate con nuestros masajes y tratamientos de spa revitalizantes.",
-          "link": "/services/spa-massages",
+          "link": "/es/services/spa-massages",
           "image": "../assets/services/_MG_0772gabybianco_back.jpg"
         },
         {
           "title": "Tratamientos corporales",
           "description": "Disfruta de nuestros tratamientos corporales para mejorar la firmeza y suavidad de tu piel.",
-          "link": "/services/body-treatments",
+          "link": "/es/services/body-treatments",
           "image": "../assets/services/_MG_0679gabybianco_belly.jpg"
         },
         {
           "title": "Cuidado de pies",
           "description": "Brindamos un cuidado profesional de pies para mantenerlos saludables y suaves.",
-          "link": "/services/foot-care",
+          "link": "/es/services/foot-care",
           "image": "../assets/services/_MG_0791gabybianco_foot_petal.jpg"
         }
       ],

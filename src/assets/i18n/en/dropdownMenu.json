@@ -2,24 +2,24 @@
   "menu": [
     {
       "title": "Home",
-      "link": "/home"
+      "link": "/en/home"
     },
     {
       "title": "Services",
       "subElements": [
-        { "title": "Facial Treatments", "link": "/services/facial-treatments" },
-        { "title": "Eye Aesthetics", "link": "/services/eye-aesthetics" },
-        { "title": "Makeup", "link": "/services/makeup" },
-        { "title": "Hand Care", "link": "/services/hand-care" },
-        { "title": "Hair Removal", "link": "/services/hair-removal" },
-        { "title": "Spa and Massages", "link": "/services/spa-massages" },
-        { "title": "Body Treatments", "link": "/services/body-treatments" },
-        { "title": "Foot Care", "link": "/services/foot-care" }
+        { "title": "Facial Treatments", "link": "/en/services/facial-treatments" },
+        { "title": "Eye Aesthetics", "link": "/en/services/eye-aesthetics" },
+        { "title": "Makeup", "link": "/en/services/makeup" },
+        { "title": "Hand Care", "link": "/en/services/hand-care" },
+        { "title": "Hair Removal", "link": "/en/services/hair-removal" },
+        { "title": "Spa and Massages", "link": "/en/services/spa-massages" },
+        { "title": "Body Treatments", "link": "/en/services/body-treatments" },
+        { "title": "Foot Care", "link": "/en/services/foot-care" }
       ]
     },
     {
       "title": "Contact",
-      "link": "/contact"
+      "link": "/en/contact"
     }
   ]
 }
