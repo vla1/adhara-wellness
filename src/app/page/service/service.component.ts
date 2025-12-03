@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { LanguageService } from 'src/app/services/language.service';
 import { Subscription } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
+import { Meta, Title } from '@angular/platform-browser';
 export interface Service {
   title: string;
   description: string;
@@ -28,7 +29,10 @@ export class ServiceComponent implements OnInit{
 
   constructor(private http: HttpClient,
     private route: ActivatedRoute,
-    private languageService:LanguageService
+    private languageService:LanguageService,
+    private router: Router,
+    private titleService: Title,
+    private metaService: Meta
   ) {}
 
   ngOnInit(): void {

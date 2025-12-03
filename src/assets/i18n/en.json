@@ -36,49 +36,49 @@
           "title": "Facial Treatments",
           "description": "Our facial treatments will rejuvenate your skin and give it new vitality.",
           "link": "/services/facial-treatments",
-          "image": "../assets/images/foto2.jpg"
+          "image": "../assets/services/_MG_0586gabybianco_mask.jpg"
         },
         {
           "title": "Eye Aesthetics",
           "description": "Enhance your look with our specialized eyelash and eyebrow services.",
           "link": "/services/eye-aesthetics",
-          "image": "../assets/images/foto2.jpg"
+          "image": "../assets/services/_MG_0643gabybianco_facial.jpg"
         },
         {
           "title": "Makeup",
           "description": "We offer professional makeup services for any special occasion.",
           "link": "/services/makeup",
-          "image": "../assets/images/foto3.jpg"
+          "image": "../assets/services/_MG_0627gabybianco copia_facial.jpg"
         },
         {
           "title": "Hand Care",
           "description": "Take care of your hands with our specialized treatments to keep them soft and healthy.",
           "link": "/services/hand-care",
-          "image": "../assets/images/foto4.jpg"
+          "image": "../assets/services/_MG_0648gabybianco_hands.jpg"
         },
         {
           "title": "Hair Removal",
           "description": "We offer professional hair removal for smooth, hair-free skin.",
           "link": "/services/hair-removal",
-          "image": "../assets/images/foto3.jpg"
+          "image": "../assets/services/_MG_0712gabybianco_chest2.jpg"
         },
         {
           "title": "Spa & Massages",
           "description": "Relax and recover with our revitalizing massages and spa treatments.",
           "link": "/services/spa-massages",
-          "image": "../assets/images/foto2.jpg"
+          "image": "../assets/services/_MG_0772gabybianco_back.jpg"
         },
         {
           "title": "Body Treatments",
           "description": "Enjoy our body treatments to improve the firmness and softness of your skin.",
           "link": "/services/body-treatments",
-          "image": "../assets/images/foto4.jpg"
+          "image": "../assets/services/_MG_0679gabybianco_belly.jpg"
         },
         {
           "title": "Foot Care",
           "description": "We provide professional foot care to keep them healthy and soft.",
           "link": "/services/foot-care",
-          "image": "../assets/images/foto4.jpg"
+          "image": "../assets/services/_MG_0791gabybianco_foot_petal.jpg"
         }
       ],
       "btnKnowMode": "Know More"

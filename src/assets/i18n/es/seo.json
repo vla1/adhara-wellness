@@ -1,0 +1,18 @@
+{
+  "seo": {
+    "home": {
+      "title": "Adhara | Spa, Masajes y Belleza en Palma de Mallorca",
+      "description": "Descubre nuestros exclusivos tratamientos faciales, masajes relajantes y servicios de estética en Palma. Reserva tu momento de bienestar.",
+      "ogImage": "https://www.tuweb.com/assets/images/home-destacada.jpg",
+      "canonicalUrl": "https://www.tuweb.com/home"
+    },
+    "contact": {
+      "title": "Contacto y Citas | Adhara Beauty & Wellness",
+      "description": "Encuéntranos en Calle Villalonga, 33 en Palma. Llámanos o escríbenos para reservar tu próxima cita. Consulta nuestro horario.",
+      "canonicalUrl": "https://www.tuweb.com/contact"
+    },
+    "default": {
+      "siteName": "Adhara Beauty & Wellness"
+    }
+  }
+}
