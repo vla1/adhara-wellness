@@ -71,17 +71,17 @@
         {
           "title": "Tinte de cejas y pestañas",
           "description": "Realza el color natural de tus cejas y pestañas.",
-          "image": "../assets/images/foto2.jpg"
+          "image": "../assets/images/foto5.jpg"
         },
         {
           "title": "Lifting de pestañas",
           "description": "Levanta y riza las pestañas para una mirada más expresiva.",
-          "image": "../assets/images/foto2.jpg"
+          "image": "../assets/images/foto5.jpg"
         },
         {
           "title": "Extensión de pestañas",
           "description": "Alarga y da volumen a tus pestañas para un efecto dramático.",
-          "image": "../assets/images/foto2.jpg"
+          "image": "../assets/images/foto5.jpg"
         }
       ]
     },
@@ -136,37 +136,37 @@
         {
           "title": "Masaje relajante",
           "description": "Relájate y libera tensiones con un masaje relajante.",
-          "image": "../assets/images/foto2.jpg"
+          "image": "../assets/images/foto1.jpg"
         },
         {
           "title": "Masaje deportivo",
           "description": "Alivia el cansancio y la tensión muscular tras el ejercicio.",
-          "image": "../assets/images/foto2.jpg"
+          "image": "../assets/images/foto1.jpg"
         },
         {
           "title": "Masaje drenaje linfático",
           "description": "Elimina toxinas y reduce la retención de líquidos.",
-          "image": "../assets/images/foto2.jpg"
+          "image": "../assets/images/foto1.jpg"
         },
         {
           "title": "Masaje adhara",
           "description": "Masaje exclusivo para relajar y revitalizar el cuerpo.",
-          "image": "../assets/images/foto2.jpg"
+          "image": "../assets/images/foto1.jpg"
         },
         {
           "title": "Exfoliación corporal",
           "description": "Elimina células muertas y rejuvenece la piel del cuerpo.",
-          "image": "../assets/images/foto2.jpg"
+          "image": "../assets/images/foto1.jpg"
         },
         {
           "title": "Exfoliación antiedad",
           "description": "Mejora la textura de la piel y reduce los signos del envejecimiento.",
-          "image": "../assets/images/foto2.jpg"
+          "image": "../assets/images/foto1.jpg"
         },
         {
           "title": "Diatermia recuperadora",
           "description": "Masaje terapéutico para recuperación postoperatoria y cicatrices. (masaje, post-operatoria, post-cirujía, cicatrices)",
-          "image": "../assets/images/foto2.jpg"
+          "image": "../assets/images/foto1.jpg"
         }
       ]
     },
