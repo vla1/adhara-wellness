@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="utf-8">
   <title>Adhara Beauty & Wellness | Belleza, Spa y Bienestar en Palma</title>
@@ -12,9 +12,27 @@
   <meta name="description" content="Servicios exclusivos de tratamientos faciales, masajes, depilación y estética de la mirada en Palma de Mallorca. Reserva tu momento de relajación y bienestar."/>
   <meta property="og:type" content="website">
 
-  <link rel="icon" type="image/x-icon" href="assets/images/favicon/favicon-16x16.png">
-  <link rel="icon" type="image/x-icon" sizes="32x32" href="assets/icons/favicon-32x32.png">
+  <meta property="og:description" content="Disfruta de la mejor experiencia de bienestar en Palma. Un espacio exclusivo de belleza con fácil acceso para tu momento de relax.">
+  <meta property="og:image" content="assets/images/adhara-images/Logo_adhara_azul.jpg">
 
+  <link rel="apple-touch-icon" href="assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+
+  <!-- SCRIPT PARA BLOQUEAR INDEXACIÓN EN NETLIFY -->
+  <script>
+    (function() {
+      // Comprobamos si la URL contiene 'netlify.app'
+      if (window.location.hostname.includes('netlify.app')) {
+        const meta = document.createElement('meta');
+        meta.name = "robots";
+        meta.content = "noindex, nofollow";
+        document.getElementsByTagName('head')[0].appendChild(meta);
+        console.log("Aviso: Indexación desactivada por detección de entorno Netlify.");
+      }
+    })();
+  </script>
+</head>
 <body>
   <app-root></app-root>
 </body>

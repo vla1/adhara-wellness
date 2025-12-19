@@ -11,8 +11,8 @@ export class LanguageService {
   private languageSubject = new BehaviorSubject<string>(this.defaultLang);
 
   constructor(private translate: TranslateService,private router: Router) {
-this.initLanguage();
-    // Suscribirse a los cambios de ruta para reaccionar si el usuario cambia el prefijo en la URL
+
+    this.initLanguage();
     this.router.events.pipe(
         filter(event => event instanceof NavigationEnd)
     ).subscribe(() => {
